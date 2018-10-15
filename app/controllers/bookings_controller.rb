@@ -31,12 +31,10 @@ class BookingsController < ApplicationController
     booking.event = @event
     booking.user = current_user
 
-    @event.available_places -= booking.count
-
+    @event.available_places -= booking.count if @event.available_places.present?
     Booking.transaction do
       @event.save
       booking.save
     end
-    booking
   end
 end

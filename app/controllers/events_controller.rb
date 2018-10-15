@@ -47,7 +47,7 @@ class EventsController < ApplicationController
 
   # GET /events/organize
   def organize
-    render json: current_user.organizing_events.where('ent_time > ?', Date.yesterday).order(:start_time)
+    render json: current_user.organizing_events.where('end_time > ?', Date.yesterday).order(:start_time)
   end
 
   private
@@ -58,6 +58,6 @@ class EventsController < ApplicationController
 
   # Only allow a trusted parameter "white list" through.
   def event_params
-    params.require(:event).permit(:title, :category, :location, :hidden, :start_time, :ent_time, :cost, :capacity)
+    params.require(:event).permit(:title, :category, :location, :hidden, :start_time, :end_time, :cost, :capacity)
   end
 end
