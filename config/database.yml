@@ -90,4 +90,4 @@ production:
   <<: *default
   database: close-in-sever_production
   username: close-in-sever
-  password: <%= ENV['CLOSE-IN-SEVER_DATABASE_PASSWORD'] %>
+  password: <%= ENV['CLOSE_IN_SEVER_DATABASE_PASSWORD'] %>
