@@ -89,6 +89,7 @@ test:
 production:
   <<: *default
   host: <%= ENV['CLOSE_IN_SEVER_DATABASE_HOST'] %>
+  port: <%= ENV['CLOSE_IN_SEVER_DATABASE_PORT'] %>
   database: close-in-sever_production
   username: close-in-sever
   password: <%= ENV['CLOSE_IN_SEVER_DATABASE_PASSWORD'] %>
