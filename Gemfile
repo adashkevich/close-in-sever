@@ -44,12 +44,19 @@ gem 'devise-jwt'
 #https://github.com/twilio/authy-devise
 #gem 'devise-authy'
 
+gem 'rswag'
+
 group :development, :test do
+  #https://www.fabricationgem.org/
   gem 'fabrication'
+  #https://github.com/stympy/faker
   gem 'faker'
   gem 'rspec-rails', '~> 3.8'
 end
 
 group :test do
   gem 'database_cleaner', '~> 1.7'
+  #https://github.com/thoughtbot/shoulda-matchers
+  gem 'shoulda-matchers', '4.0.0.rc1'
+  gem 'rails-controller-testing'
 end

@@ -117,3 +117,5 @@ RSpec.configure do |config|
   Kernel.srand config.seed
 =end
 end
+
+ENV['DEVISE_JWT_SECRET_KEY'] = '58d392dd1ca99e21f0cfa602f21fea24d008869eb1de43ac30e316060bf0fe7b70c803b0b8f3d1952aa2f8dd984482931ff26fd6bf0a13fb147b5b450ae52d2a'

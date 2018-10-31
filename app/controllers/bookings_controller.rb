@@ -36,5 +36,6 @@ class BookingsController < ApplicationController
       @event.save
       booking.save
     end
+    booking
   end
 end

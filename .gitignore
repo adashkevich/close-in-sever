@@ -17,3 +17,5 @@
 !/tmp/.keep
 
 .byebug_history
+
+app.yaml
