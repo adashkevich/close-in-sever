@@ -1,9 +1,9 @@
 Fabricator(:event) do
-  title { 'Event title' }
-  category { 'football' }
-  location { 'POINT(114.2219923 22.3129115)' }
-  start_time { Faker::Time.forward(0, :evening) }
-  end_time { Faker::Time.forward(1, :all) }
-  cost { 5.5 }
-  capacity { 15 }
+  title { Faker::Fallout.location }
+  category { ['other', 'meeting', 'football', 'basketball', 'volleyball', 'freewalkingtours'].sample }
+  location { "POINT(#{Faker::Number.between(53.842607, 53.950685)} #{Faker::Number.between(27.443041, 27.671694)})"  }
+  start_time { Faker::Time.between(Date.new(2018, 10, 7), Date.new(2018, 10, 7), :all) }
+  end_time { Faker::Time.between(Date.new(2018, 10, 8), Date.new(2018, 10, 8), :all) }
+  cost { Faker::Number.decimal(2) }
+  capacity { Faker::Number.between(3, 100) }
 end

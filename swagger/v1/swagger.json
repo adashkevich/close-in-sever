@@ -1,0 +1,674 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "API V1",
+    "version": "v1"
+  },
+  "paths": {
+    "/login": {
+      "post": {
+        "summary": "Authentication",
+        "tags": [
+          "Auth"
+        ],
+        "consumes": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "user",
+            "in": "body",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "country_code": {
+                  "type": "string"
+                },
+                "phone": {
+                  "type": "string"
+                },
+                "password": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "country_code",
+                "phone",
+                "password"
+              ]
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successfully authenticated",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "country_code": {
+                  "type": "string"
+                },
+                "phone": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "country_code",
+                "phone",
+                "name"
+              ]
+            }
+          },
+          "401": {
+            "description": "Authentication failed",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "Invalid Country code, Phone or password."
+              ]
+            }
+          }
+        }
+      }
+    },
+    "/bookings": {
+      "post": {
+        "summary": "Create booking",
+        "tags": [
+          "Bookings"
+        ],
+        "consumes": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "booking",
+            "in": "body",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "event_id": {
+                  "type": "integer",
+                  "example": 87362
+                },
+                "booking": {
+                  "type": "object",
+                  "properties": {
+                    "count": {
+                      "type": "integer",
+                      "example": 3
+                    },
+                    "required": [
+                      "count"
+                    ]
+                  }
+                },
+                "required": [
+                  "event_id",
+                  "booking"
+                ]
+              }
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Successfully created"
+          }
+        }
+      },
+      "get": {
+        "summary": "Get bookings",
+        "tags": [
+          "Bookings"
+        ],
+        "consumes": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "Successfully get",
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "integer",
+                    "example": 27
+                  },
+                  "user_id": {
+                    "type": "integer",
+                    "example": 735
+                  },
+                  "event_id": {
+                    "type": "integer",
+                    "example": 87362
+                  },
+                  "count": {
+                    "type": "integer",
+                    "example": 3
+                  }
+                },
+                "required": [
+                  "id",
+                  "user_id",
+                  "event_id",
+                  "count"
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "/bookings/{id}": {
+      "delete": {
+        "summary": "Delete booking",
+        "tags": [
+          "Bookings"
+        ],
+        "consumes": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "type": "integer",
+            "example": 35,
+            "required": true
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Successfully delete"
+          }
+        }
+      }
+    },
+    "/events": {
+      "post": {
+        "summary": "Create event",
+        "tags": [
+          "Events"
+        ],
+        "consumes": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "event",
+            "in": "body",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "title": {
+                  "type": "string",
+                  "example": "Friendly Match"
+                },
+                "category": {
+                  "type": "string",
+                  "enum": [
+                    "other",
+                    "meeting",
+                    "football",
+                    "basketball",
+                    "volleyball",
+                    "freewalkingtours"
+                  ],
+                  "example": "football"
+                },
+                "start_time": {
+                  "type": "string",
+                  "example": "2020-10-07T17:00"
+                },
+                "ent_time": {
+                  "type": "string",
+                  "example": "2018-10-07T18:30"
+                },
+                "cost": {
+                  "type": "number",
+                  "example": 6.5,
+                  "default": null
+                },
+                "capacity": {
+                  "type": "integer",
+                  "example": 15,
+                  "default": null
+                },
+                "location": {
+                  "type": "string",
+                  "example": "POINT(114.2219923 22.3129115)"
+                }
+              },
+              "required": [
+                "title",
+                "category",
+                "start_time",
+                "ent_time",
+                "location"
+              ]
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successfully created",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "integer",
+                  "example": 87362
+                },
+                "title": {
+                  "type": "string",
+                  "example": "Friendly Match"
+                },
+                "category": {
+                  "type": "string",
+                  "enum": [
+                    "other",
+                    "meeting",
+                    "football",
+                    "basketball",
+                    "volleyball",
+                    "freewalkingtours"
+                  ],
+                  "example": "football"
+                },
+                "start_time": {
+                  "type": "string",
+                  "example": "2020-10-07T17:00"
+                },
+                "ent_time": {
+                  "type": "string",
+                  "example": "2018-10-07T18:30"
+                },
+                "cost": {
+                  "type": "number",
+                  "example": 6.5,
+                  "default": null
+                },
+                "capacity": {
+                  "type": "integer",
+                  "example": 15,
+                  "default": null
+                },
+                "location": {
+                  "type": "string",
+                  "example": "POINT(114.2219923 22.3129115)"
+                }
+              },
+              "required": [
+                "id",
+                "title",
+                "category",
+                "start_time",
+                "ent_time",
+                "location"
+              ]
+            }
+          }
+        }
+      },
+      "get": {
+        "summary": "Get events",
+        "tags": [
+          "Events"
+        ],
+        "consumes": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "date",
+            "in": "query",
+            "type": "string",
+            "required": true,
+            "example": "2020-10-07",
+            "description": "Date which events getting for"
+          },
+          {
+            "name": "area",
+            "in": "query",
+            "type": "string",
+            "required": true,
+            "example": "ST_MakeEnvelope(114.3, 22.4, 114.1, 22.2)",
+            "description": "Area in PostGis format which events getting for"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successfully get",
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "integer",
+                    "example": 87362
+                  },
+                  "title": {
+                    "type": "string",
+                    "example": "Friendly Match"
+                  },
+                  "category": {
+                    "type": "string",
+                    "enum": [
+                      "other",
+                      "meeting",
+                      "football",
+                      "basketball",
+                      "volleyball",
+                      "freewalkingtours"
+                    ],
+                    "example": "football"
+                  },
+                  "start_time": {
+                    "type": "string",
+                    "example": "2020-10-07T17:00"
+                  },
+                  "ent_time": {
+                    "type": "string",
+                    "example": "2018-10-07T18:30"
+                  },
+                  "cost": {
+                    "type": "number",
+                    "example": 6.5,
+                    "default": null
+                  },
+                  "capacity": {
+                    "type": "integer",
+                    "example": 15,
+                    "default": null
+                  },
+                  "location": {
+                    "type": "string",
+                    "example": "POINT(114.2219923 22.3129115)"
+                  }
+                },
+                "required": [
+                  "id",
+                  "title",
+                  "category",
+                  "start_time",
+                  "ent_time",
+                  "location"
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "/events/participate": {
+      "get": {
+        "summary": "Get participate events",
+        "tags": [
+          "Events"
+        ],
+        "consumes": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "Successfully get",
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "integer",
+                    "example": 87362
+                  },
+                  "title": {
+                    "type": "string",
+                    "example": "Friendly Match"
+                  },
+                  "category": {
+                    "type": "string",
+                    "enum": [
+                      "other",
+                      "meeting",
+                      "football",
+                      "basketball",
+                      "volleyball",
+                      "freewalkingtours"
+                    ],
+                    "example": "football"
+                  },
+                  "start_time": {
+                    "type": "string",
+                    "example": "2020-10-07T17:00"
+                  },
+                  "ent_time": {
+                    "type": "string",
+                    "example": "2018-10-07T18:30"
+                  },
+                  "cost": {
+                    "type": "number",
+                    "example": 6.5,
+                    "default": null
+                  },
+                  "capacity": {
+                    "type": "integer",
+                    "example": 15,
+                    "default": null
+                  },
+                  "location": {
+                    "type": "string",
+                    "example": "POINT(114.2219923 22.3129115)"
+                  }
+                },
+                "required": [
+                  "id",
+                  "title",
+                  "category",
+                  "start_time",
+                  "ent_time",
+                  "location"
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "/events/organize": {
+      "get": {
+        "summary": "Get organize events",
+        "tags": [
+          "Events"
+        ],
+        "consumes": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "Successfully get",
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "integer",
+                    "example": 87362
+                  },
+                  "title": {
+                    "type": "string",
+                    "example": "Friendly Match"
+                  },
+                  "category": {
+                    "type": "string",
+                    "enum": [
+                      "other",
+                      "meeting",
+                      "football",
+                      "basketball",
+                      "volleyball",
+                      "freewalkingtours"
+                    ],
+                    "example": "football"
+                  },
+                  "start_time": {
+                    "type": "string",
+                    "example": "2020-10-07T17:00"
+                  },
+                  "ent_time": {
+                    "type": "string",
+                    "example": "2018-10-07T18:30"
+                  },
+                  "cost": {
+                    "type": "number",
+                    "example": 6.5,
+                    "default": null
+                  },
+                  "capacity": {
+                    "type": "integer",
+                    "example": 15,
+                    "default": null
+                  },
+                  "location": {
+                    "type": "string",
+                    "example": "POINT(114.2219923 22.3129115)"
+                  }
+                },
+                "required": [
+                  "id",
+                  "title",
+                  "category",
+                  "start_time",
+                  "ent_time",
+                  "location"
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "/events/{id}": {
+      "delete": {
+        "summary": "Delete event",
+        "tags": [
+          "Events"
+        ],
+        "consumes": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "type": "integer",
+            "required": true,
+            "example": 87362,
+            "description": "Id of event to delete"
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Successfully delete"
+          }
+        }
+      }
+    },
+    "/signup": {
+      "post": {
+        "summary": "Registration",
+        "tags": [
+          "Auth"
+        ],
+        "consumes": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "user",
+            "in": "body",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "country_code": {
+                  "type": "string",
+                  "examle": "+375"
+                },
+                "phone": {
+                  "type": "string",
+                  "examle": "297654321"
+                },
+                "name": {
+                  "type": "string",
+                  "examle": "John Doe"
+                },
+                "password": {
+                  "type": "string",
+                  "examle": "Pa$$w0rD!"
+                }
+              },
+              "required": [
+                "country_code",
+                "phone",
+                "name",
+                "password"
+              ]
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successfully registered",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "integer",
+                  "example": 735
+                },
+                "country_code": {
+                  "type": "string",
+                  "examle": "+375"
+                },
+                "phone": {
+                  "type": "string",
+                  "examle": "297654321"
+                },
+                "name": {
+                  "type": "string",
+                  "examle": "John Doe"
+                }
+              },
+              "required": [
+                "id",
+                "country_code",
+                "phone",
+                "name"
+              ]
+            }
+          },
+          "400": {
+            "description": "Registration failed",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "Invalid Country code, Phone or password."
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

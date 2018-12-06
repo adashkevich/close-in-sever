@@ -1,4 +1,3 @@
-require 'rails_helper'
 require 'swagger_helper'
 
 RSpec.describe 'Events API', type: :request do

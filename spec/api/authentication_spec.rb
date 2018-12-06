@@ -1,4 +1,3 @@
-require 'rails_helper'
 require 'swagger_helper'
 
 RSpec.describe 'Auth API', type: :request do
