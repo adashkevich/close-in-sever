@@ -3,8 +3,6 @@ namespace :jmeter do
   desc 'Generates jmeter test plan'
   task :generate_plan, [:url, :count] do |t, args|
     require 'ruby-jmeter'
-    require 'faker'
-    require 'models/user'
 
     generate_report *extract_options_from(args)
   end
@@ -22,7 +20,7 @@ namespace :jmeter do
   def generate_report(url, count)
     uri = URI(url)
     test do
-      threads count: 1000 do
+      threads count: 10000 do
         defaults domain: uri.host, port: uri.port
         # cookies policy: 'rfc2109', clear_each_iteration: true
 
