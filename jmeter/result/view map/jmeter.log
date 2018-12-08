@@ -1,0 +1,691 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1544248667884,820,View map,200,OK,ThreadGroup 1-1,text,true,,312216,472,2,2,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.84%2C+27.44%2C+54.14%2C+27.74%29,818,0,22
+1544248667814,820,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-1,,true,,312216,472,2,2,null,818,72,22
+1544248668285,1190,View map,200,OK,ThreadGroup 1-2,text,true,,233784,472,4,4,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.87%2C+27.44%2C+54.17%2C+27.74%29,1159,0,1
+1544248668285,1190,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-2,,true,,233784,472,4,4,null,1159,0,1
+1544248668713,1094,View map,200,OK,ThreadGroup 1-1,text,true,,141168,472,5,5,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.90%2C+27.44%2C+54.20%2C+27.74%29,1093,0,0
+1544248668707,1094,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-1,,true,,141168,472,5,5,null,1093,6,0
+1544248669286,679,View map,200,OK,ThreadGroup 1-4,text,true,,4157,472,5,5,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.95%2C+27.44%2C+54.25%2C+27.74%29,679,0,1
+1544248669285,679,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-4,,true,,4157,472,5,5,null,679,2,1
+1544248668786,1845,View map,200,OK,ThreadGroup 1-3,text,true,,61868,472,6,6,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.93%2C+27.44%2C+54.23%2C+27.74%29,1804,0,1
+1544248668784,1845,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-3,,true,,61868,472,6,6,null,1804,2,1
+1544248669808,1065,View map,200,OK,ThreadGroup 1-1,text,true,,125990,472,7,7,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.90%2C+27.47%2C+54.20%2C+27.77%29,1044,0,1
+1544248669807,1065,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-1,,true,,125990,472,7,7,null,1044,2,1
+1544248669476,1816,View map,200,OK,ThreadGroup 1-2,text,true,,272328,472,8,8,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.84%2C+27.47%2C+54.14%2C+27.77%29,1808,0,1
+1544248669476,1816,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-2,,true,,272328,472,8,8,null,1808,1,1
+1544248670288,1650,View map,200,OK,ThreadGroup 1-6,text,true,,3450,472,9,9,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.95%2C+27.47%2C+54.25%2C+27.77%29,1648,0,0
+1544248670287,1650,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-6,,true,,3450,472,9,9,null,1648,2,0
+1544248669786,2154,View map,200,OK,ThreadGroup 1-5,text,true,,204477,472,9,9,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.87%2C+27.47%2C+54.17%2C+27.77%29,2153,0,1
+1544248669785,2154,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-5,,true,,204477,472,9,9,null,2153,1,1
+1544248669966,1976,View map,200,OK,ThreadGroup 1-4,text,true,,55844,472,9,9,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.93%2C+27.47%2C+54.23%2C+27.77%29,1975,0,1
+1544248669966,1976,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-4,,true,,55844,472,9,9,null,1975,0,1
+1544248670632,2177,View map,200,OK,ThreadGroup 1-3,text,true,,229866,472,11,11,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.84%2C+27.50%2C+54.14%2C+27.80%29,2155,0,1
+1544248670632,2177,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-3,,true,,229866,472,11,11,null,2155,0,1
+1544248670790,2300,View map,200,OK,ThreadGroup 1-7,text,true,,173656,472,11,11,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.87%2C+27.50%2C+54.17%2C+27.80%29,2280,0,0
+1544248670789,2300,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-7,,true,,173656,472,11,11,null,2280,2,0
+1544248671291,2125,View map,200,OK,ThreadGroup 1-8,text,true,,49457,472,12,12,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.93%2C+27.50%2C+54.23%2C+27.80%29,2124,0,1
+1544248671290,2125,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-8,,true,,49457,472,12,12,null,2124,1,1
+1544248671293,2150,View map,200,OK,ThreadGroup 1-2,text,true,,3094,472,12,12,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.95%2C+27.50%2C+54.25%2C+27.80%29,2123,0,1
+1544248671293,2150,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-2,,true,,3094,472,12,12,null,2123,1,1
+1544248670874,2612,View map,200,OK,ThreadGroup 1-1,text,true,,108243,472,12,12,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.90%2C+27.50%2C+54.20%2C+27.80%29,2611,0,1
+1544248670874,2612,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-1,,true,,108243,472,12,12,null,2611,0,1
+1544248671792,2399,View map,200,OK,ThreadGroup 1-9,text,true,,179272,472,13,13,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.84%2C+27.53%2C+54.14%2C+27.83%29,2368,0,0
+1544248671791,2399,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-9,,true,,179272,472,13,13,null,2368,1,0
+1544248672293,2366,View map,200,OK,ThreadGroup 1-10,text,true,,2390,472,14,14,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.95%2C+27.53%2C+54.25%2C+27.83%29,2345,0,1
+1544248672292,2366,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-10,,true,,2390,472,14,14,null,2345,1,1
+1544248671942,2785,View map,200,OK,ThreadGroup 1-4,text,true,,36378,472,14,14,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.93%2C+27.53%2C+54.23%2C+27.83%29,2783,0,1
+1544248671942,2785,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-4,,true,,36378,472,14,14,null,2783,0,1
+1544248671939,2790,View map,200,OK,ThreadGroup 1-6,text,true,,134055,472,14,14,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.87%2C+27.53%2C+54.17%2C+27.83%29,2789,0,1
+1544248671939,2790,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-6,,true,,134055,472,14,14,null,2789,1,1
+1544248671941,2789,View map,200,OK,ThreadGroup 1-5,text,true,,85966,472,14,14,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.90%2C+27.53%2C+54.20%2C+27.83%29,2788,0,0
+1544248671940,2789,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-5,,true,,85966,472,14,14,null,2788,1,0
+1544248673417,2279,View map,200,OK,ThreadGroup 1-8,text,true,,2038,472,16,16,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.95%2C+27.56%2C+54.25%2C+27.86%29,2238,0,1
+1544248673417,2279,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-8,,true,,2038,472,16,16,null,2238,1,1
+1544248673293,2509,View map,200,OK,ThreadGroup 1-12,text,true,,28594,472,17,17,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.93%2C+27.56%2C+54.23%2C+27.86%29,2466,0,1
+1544248673292,2509,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-12,,true,,28594,472,17,17,null,2466,1,1
+1544248672792,3055,View map,200,OK,ThreadGroup 1-11,text,true,,143537,472,17,17,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.84%2C+27.56%2C+54.14%2C+27.86%29,3041,0,1
+1544248672792,3055,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-11,,true,,143537,472,17,17,null,3041,0,1
+1544248673092,2761,View map,200,OK,ThreadGroup 1-7,text,true,,66821,472,17,17,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.90%2C+27.56%2C+54.20%2C+27.86%29,2759,0,1
+1544248673092,2761,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-7,,true,,66821,472,17,17,null,2759,1,1
+1544248672810,3054,View map,200,OK,ThreadGroup 1-3,text,true,,106793,472,17,17,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.87%2C+27.56%2C+54.17%2C+27.86%29,3043,0,2
+1544248672809,3054,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-3,,true,,106793,472,17,17,null,3043,1,2
+1544248674193,2539,View map,200,OK,ThreadGroup 1-9,text,true,,20090,472,18,18,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.93%2C+27.59%2C+54.23%2C+27.89%29,2517,0,1
+1544248674192,2539,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-9,,true,,20090,472,18,18,null,2517,1,1
+1544248673446,3301,View map,200,OK,ThreadGroup 1-2,text,true,,101154,472,18,18,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.84%2C+27.59%2C+54.14%2C+27.89%29,3300,0,1
+1544248673445,3301,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-2,,true,,101154,472,18,18,null,3300,2,1
+1544248674294,2455,View map,200,OK,ThreadGroup 1-14,text,true,,1328,472,18,18,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.95%2C+27.59%2C+54.25%2C+27.89%29,2454,0,1
+1544248674293,2455,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-14,,true,,1328,472,18,18,null,2454,1,1
+1544248673488,3263,View map,200,OK,ThreadGroup 1-1,text,true,,76072,472,18,18,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.87%2C+27.59%2C+54.17%2C+27.89%29,3262,0,2
+1544248673487,3263,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-1,,true,,76072,472,18,18,null,3262,2,2
+1544248673794,2958,View map,200,OK,ThreadGroup 1-13,text,true,,47377,472,18,18,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.90%2C+27.59%2C+54.20%2C+27.89%29,2957,0,0
+1544248673793,2958,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-13,,true,,47377,472,18,18,null,2957,2,0
+1544248674660,2792,View map,200,OK,ThreadGroup 1-10,text,true,,66067,472,20,20,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.84%2C+27.62%2C+54.14%2C+27.92%29,2791,0,1
+1544248674660,2792,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-10,,true,,66067,472,20,20,null,2791,0,1
+1544248674732,2721,View map,200,OK,ThreadGroup 1-5,text,true,,13719,472,20,20,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.93%2C+27.62%2C+54.23%2C+27.92%29,2720,0,0
+1544248674732,2721,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-5,,true,,13719,472,20,20,null,2720,0,0
+1544248674796,2658,View map,200,OK,ThreadGroup 1-15,text,true,,1328,472,20,20,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.95%2C+27.62%2C+54.25%2C+27.92%29,2657,0,0
+1544248674795,2658,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-15,,true,,1328,472,20,20,null,2657,2,0
+1544248674731,2725,View map,200,OK,ThreadGroup 1-6,text,true,,32509,472,20,20,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.90%2C+27.62%2C+54.20%2C+27.92%29,2724,0,1
+1544248674731,2725,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-6,,true,,32509,472,20,20,null,2724,0,1
+1544248674728,2729,View map,200,OK,ThreadGroup 1-4,text,true,,53033,472,20,20,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.87%2C+27.62%2C+54.17%2C+27.92%29,2728,0,1
+1544248674728,2729,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-4,,true,,53033,472,20,20,null,2728,0,1
+1544248675298,2674,View map,200,OK,ThreadGroup 1-16,text,true,,27455,472,21,21,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.84%2C+27.65%2C+54.14%2C+27.95%29,2672,0,1
+1544248675297,2674,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-16,,true,,27455,472,21,21,null,2672,1,1
+1544248675697,2277,View map,200,OK,ThreadGroup 1-8,text,true,,23956,472,21,21,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.87%2C+27.65%2C+54.17%2C+27.95%29,2276,0,1
+1544248675697,2277,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-8,,true,,23956,472,21,21,null,2276,0,1
+1544248675797,2178,View map,200,OK,ThreadGroup 1-17,text,true,,14783,472,21,21,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.90%2C+27.65%2C+54.20%2C+27.95%29,2177,0,1
+1544248675796,2178,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-17,,true,,14783,472,21,21,null,2177,1,1
+1544248675803,2174,View map,200,OK,ThreadGroup 1-12,text,true,,6646,472,21,21,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.93%2C+27.65%2C+54.23%2C+27.95%29,2173,0,1
+1544248675802,2174,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-12,,true,,6646,472,21,21,null,2173,1,1
+1544248675849,2144,View map,200,OK,ThreadGroup 1-11,text,true,,628,472,21,21,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.95%2C+27.65%2C+54.25%2C+27.95%29,2128,0,1
+1544248675848,2144,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-11,,true,,628,472,21,21,null,2128,1,1
+1544248675855,2470,View map,200,OK,ThreadGroup 1-7,text,true,,275,472,22,22,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.84%2C+27.68%2C+54.14%2C+27.98%29,2470,0,1
+1544248675854,2470,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-7,,true,,275,472,22,22,null,2470,2,1
+1544248675865,2462,View map,200,OK,ThreadGroup 1-3,text,true,,275,472,22,22,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.87%2C+27.68%2C+54.17%2C+27.98%29,2461,0,1
+1544248675865,2462,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-3,,true,,275,472,22,22,null,2461,0,1
+1544248676297,2033,View map,200,OK,ThreadGroup 1-18,text,true,,275,472,22,22,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.90%2C+27.68%2C+54.20%2C+27.98%29,2032,0,1
+1544248676296,2033,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-18,,true,,275,472,22,22,null,2032,1,1
+1544248676733,1605,View map,200,OK,ThreadGroup 1-9,text,true,,275,472,22,22,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.93%2C+27.68%2C+54.23%2C+27.98%29,1598,0,0
+1544248676732,1605,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-9,,true,,275,472,22,22,null,1598,1,0
+1544248676748,1649,View map,200,OK,ThreadGroup 1-2,text,true,,275,472,22,22,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.95%2C+27.68%2C+54.25%2C+27.98%29,1648,0,1
+1544248676748,1649,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-2,,true,,275,472,22,22,null,1648,0,1
+1544248677298,1986,View map,200,OK,ThreadGroup 1-20,text,true,,4157,472,23,23,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.95%2C+27.44%2C+54.25%2C+27.74%29,1934,0,1
+1544248677297,1986,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-20,,true,,4157,472,23,23,null,1934,1,1
+1544248676797,2854,View map,200,OK,ThreadGroup 1-19,text,true,,61868,472,24,24,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.93%2C+27.44%2C+54.23%2C+27.74%29,2782,0,1
+1544248676797,2854,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-19,,true,,61868,472,24,24,null,2782,1,1
+1544248676753,3506,View map,200,OK,ThreadGroup 1-13,text,true,,141168,472,25,25,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.90%2C+27.44%2C+54.20%2C+27.74%29,3452,0,1
+1544248676753,3506,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-13,,true,,141168,472,25,25,null,3452,4,1
+1544248676751,3790,View map,200,OK,ThreadGroup 1-14,text,true,,312216,472,26,26,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.84%2C+27.44%2C+54.14%2C+27.74%29,3779,0,1
+1544248676749,3790,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-14,,true,,312216,472,26,26,null,3779,2,1
+1544248676753,3846,View map,200,OK,ThreadGroup 1-1,text,true,,233784,472,26,26,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.87%2C+27.44%2C+54.17%2C+27.74%29,3844,0,1
+1544248676752,3846,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-1,,true,,233784,472,26,26,null,3844,1,1
+1544248677457,4358,View map,200,OK,ThreadGroup 1-4,text,true,,3450,472,29,29,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.95%2C+27.47%2C+54.25%2C+27.77%29,4275,0,1
+1544248677457,4358,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-4,,true,,3450,472,29,29,null,4275,0,1
+1544248677457,4630,View map,200,OK,ThreadGroup 1-6,text,true,,55844,472,29,29,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.93%2C+27.47%2C+54.23%2C+27.77%29,4609,0,1
+1544248677456,4630,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-6,,true,,55844,472,29,29,null,4609,2,1
+1544248677456,4686,View map,200,OK,ThreadGroup 1-15,text,true,,125990,472,29,29,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.90%2C+27.47%2C+54.20%2C+27.77%29,4663,0,0
+1544248677455,4686,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-15,,true,,125990,472,29,29,null,4663,1,0
+1544248677453,4750,View map,200,OK,ThreadGroup 1-10,text,true,,272328,472,29,29,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.84%2C+27.47%2C+54.14%2C+27.77%29,4719,0,0
+1544248677452,4750,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-10,,true,,272328,472,29,29,null,4719,1,0
+1544248677454,4953,View map,200,OK,ThreadGroup 1-5,text,true,,204477,472,30,30,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.87%2C+27.47%2C+54.17%2C+27.77%29,4927,0,1
+1544248677453,4953,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-5,,true,,204477,472,30,30,null,4927,1,1
+1544248677977,5401,View map,200,OK,ThreadGroup 1-12,text,true,,3094,472,32,32,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.95%2C+27.50%2C+54.25%2C+27.80%29,5338,0,1
+1544248677977,5401,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-12,,true,,3094,472,32,32,null,5338,0,1
+1544248677975,5559,View map,200,OK,ThreadGroup 1-17,text,true,,49457,472,32,32,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.93%2C+27.50%2C+54.23%2C+27.80%29,5497,0,1
+1544248677975,5559,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-17,,true,,49457,472,32,32,null,5497,1,1
+1544248677975,5824,View map,200,OK,ThreadGroup 1-8,text,true,,108243,472,32,32,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.90%2C+27.50%2C+54.20%2C+27.80%29,5802,0,0
+1544248677974,5824,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-8,,true,,108243,472,32,32,null,5802,2,0
+1544248677798,6043,View map,200,OK,ThreadGroup 1-21,text,true,,229866,472,33,33,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.84%2C+27.50%2C+54.14%2C+27.80%29,6032,0,1
+1544248677797,6043,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-21,,true,,229866,472,33,33,null,6032,2,1
+1544248677973,5993,View map,200,OK,ThreadGroup 1-16,text,true,,173656,472,33,33,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.87%2C+27.50%2C+54.17%2C+27.80%29,5991,0,1
+1544248677973,5993,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-16,,true,,173656,472,33,33,null,5991,0,1
+1544248678331,6584,View map,200,OK,ThreadGroup 1-18,text,true,,2390,472,35,35,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.95%2C+27.53%2C+54.25%2C+27.83%29,6520,0,0
+1544248678331,6584,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-18,,true,,2390,472,35,35,null,6520,0,0
+1544248678328,6690,View map,200,OK,ThreadGroup 1-3,text,true,,36378,472,35,35,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.93%2C+27.53%2C+54.23%2C+27.83%29,6675,0,1
+1544248678327,6690,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-3,,true,,36378,472,35,35,null,6675,2,1
+1544248677994,7141,View map,200,OK,ThreadGroup 1-11,text,true,,179272,472,35,35,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.84%2C+27.53%2C+54.14%2C+27.83%29,7119,0,0
+1544248677993,7141,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-11,,true,,179272,472,35,35,null,7119,1,0
+1544248678326,6850,View map,200,OK,ThreadGroup 1-7,text,true,,85966,472,35,35,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.90%2C+27.53%2C+54.20%2C+27.83%29,6833,0,1
+1544248678326,6850,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-7,,true,,85966,472,35,35,null,6833,0,1
+1544248678298,6995,View map,200,OK,ThreadGroup 1-22,text,true,,134055,472,35,35,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.87%2C+27.53%2C+54.17%2C+27.83%29,6993,0,1
+1544248678297,6995,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-22,,true,,134055,472,35,35,null,6993,1,1
+1544248679298,6860,View map,200,OK,ThreadGroup 1-24,text,true,,2038,472,37,37,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.95%2C+27.56%2C+54.25%2C+27.86%29,6812,0,1
+1544248679298,6860,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-24,,true,,2038,472,37,37,null,6812,0,1
+1544248679284,6952,View map,200,OK,ThreadGroup 1-20,text,true,,28594,472,37,37,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.93%2C+27.56%2C+54.23%2C+27.86%29,6931,0,1
+1544248679284,6952,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-20,,true,,28594,472,37,37,null,6931,1,1
+1544248678339,7939,View map,200,OK,ThreadGroup 1-9,text,true,,143537,472,37,37,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.84%2C+27.56%2C+54.14%2C+27.86%29,7928,0,0
+1544248678338,7939,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-9,,true,,143537,472,37,37,null,7928,1,0
+1544248678798,7483,View map,200,OK,ThreadGroup 1-23,text,true,,66821,472,37,37,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.90%2C+27.56%2C+54.20%2C+27.86%29,7483,0,1
+1544248678797,7483,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-23,,true,,66821,472,37,37,null,7483,2,1
+1544248678397,7902,View map,200,OK,ThreadGroup 1-2,text,true,,106793,472,37,37,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.87%2C+27.56%2C+54.17%2C+27.86%29,7887,0,1
+1544248678397,7902,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-2,,true,,106793,472,37,37,null,7887,0,1
+1544248680542,6680,View map,200,OK,ThreadGroup 1-14,text,true,,1328,472,39,39,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.95%2C+27.59%2C+54.25%2C+27.89%29,6658,0,0
+1544248680541,6680,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-14,,true,,1328,472,39,39,null,6658,1,0
+1544248679652,7584,View map,200,OK,ThreadGroup 1-19,text,true,,101154,472,39,39,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.84%2C+27.59%2C+54.14%2C+27.89%29,7583,0,1
+1544248679652,7584,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-19,,true,,101154,472,39,39,null,7583,1,1
+1544248680300,6938,View map,200,OK,ThreadGroup 1-26,text,true,,20090,472,39,39,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.93%2C+27.59%2C+54.23%2C+27.89%29,6937,0,1
+1544248680299,6938,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-26,,true,,20090,472,39,39,null,6937,1,1
+1544248679799,7442,View map,200,OK,ThreadGroup 1-25,text,true,,76072,472,39,39,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.87%2C+27.59%2C+54.17%2C+27.89%29,7440,0,1
+1544248679799,7442,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-25,,true,,76072,472,39,39,null,7440,0,1
+1544248680263,6980,View map,200,OK,ThreadGroup 1-13,text,true,,47377,472,39,39,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.90%2C+27.59%2C+54.20%2C+27.89%29,6978,0,1
+1544248680263,6980,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-13,,true,,47377,472,39,39,null,6978,0,1
+1544248680600,7447,View map,200,OK,ThreadGroup 1-1,text,true,,66067,472,41,41,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.84%2C+27.62%2C+54.14%2C+27.92%29,7446,0,0
+1544248680599,7447,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-1,,true,,66067,472,41,41,null,7446,2,0
+1544248681802,6248,View map,200,OK,ThreadGroup 1-29,text,true,,13719,472,41,41,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.93%2C+27.62%2C+54.23%2C+27.92%29,6245,0,1
+1544248681801,6248,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-29,,true,,13719,472,41,41,null,6245,1,1
+1544248680800,7253,View map,200,OK,ThreadGroup 1-27,text,true,,53033,472,41,41,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.87%2C+27.62%2C+54.17%2C+27.92%29,7252,0,1
+1544248680800,7253,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-27,,true,,53033,472,41,41,null,7252,0,1
+1544248681815,6240,View map,200,OK,ThreadGroup 1-4,text,true,,1328,472,41,41,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.95%2C+27.62%2C+54.25%2C+27.92%29,6238,0,1
+1544248681815,6240,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-4,,true,,1328,472,41,41,null,6238,0,1
+1544248681300,6763,View map,200,OK,ThreadGroup 1-28,text,true,,32509,472,41,41,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.90%2C+27.62%2C+54.20%2C+27.92%29,6758,0,1
+1544248681300,6763,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-28,,true,,32509,472,41,41,null,6758,1,1
+1544248682088,6601,View map,200,OK,ThreadGroup 1-6,text,true,,27455,472,42,42,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.84%2C+27.65%2C+54.14%2C+27.95%29,6601,0,0
+1544248682088,6601,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-6,,true,,27455,472,42,42,null,6601,0,0
+1544248682143,6546,View map,200,OK,ThreadGroup 1-15,text,true,,23956,472,42,42,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.87%2C+27.65%2C+54.17%2C+27.95%29,6546,0,1
+1544248682142,6546,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-15,,true,,23956,472,42,42,null,6546,2,1
+1544248682204,6486,View map,200,OK,ThreadGroup 1-10,text,true,,14783,472,42,42,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.90%2C+27.65%2C+54.20%2C+27.95%29,6486,0,0
+1544248682204,6486,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-10,,true,,14783,472,42,42,null,6486,1,0
+1544248682301,6390,View map,200,OK,ThreadGroup 1-30,text,true,,6646,472,42,42,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.93%2C+27.65%2C+54.23%2C+27.95%29,6390,0,1
+1544248682301,6390,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-30,,true,,6646,472,42,42,null,6390,1,1
+1544248682408,6285,View map,200,OK,ThreadGroup 1-5,text,true,,628,472,42,42,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.95%2C+27.65%2C+54.25%2C+27.95%29,6284,0,0
+1544248682407,6285,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-5,,true,,628,472,42,42,null,6284,1,0
+1544248682803,6280,View map,200,OK,ThreadGroup 1-31,text,true,,275,472,43,43,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.84%2C+27.68%2C+54.14%2C+27.98%29,6279,0,0
+1544248682802,6280,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-31,,true,,275,472,43,43,null,6279,1,0
+1544248683303,5781,View map,200,OK,ThreadGroup 1-32,text,true,,275,472,43,43,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.87%2C+27.68%2C+54.17%2C+27.98%29,5780,0,1
+1544248683302,5781,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-32,,true,,275,472,43,43,null,5780,2,1
+1544248683378,5708,View map,200,OK,ThreadGroup 1-12,text,true,,275,472,43,43,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.90%2C+27.68%2C+54.20%2C+27.98%29,5707,0,1
+1544248683378,5708,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-12,,true,,275,472,43,43,null,5707,0,1
+1544248683534,5554,View map,200,OK,ThreadGroup 1-17,text,true,,275,472,43,43,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.93%2C+27.68%2C+54.23%2C+27.98%29,5553,0,1
+1544248683534,5554,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-17,,true,,275,472,43,43,null,5553,0,1
+1544248683799,5290,View map,200,OK,ThreadGroup 1-8,text,true,,275,472,43,43,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.95%2C+27.68%2C+54.25%2C+27.98%29,5289,0,0
+1544248683799,5290,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-8,,true,,275,472,43,43,null,5289,0,0
+1544248684803,5549,View map,200,OK,ThreadGroup 1-35,text,true,,4157,472,46,46,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.95%2C+27.44%2C+54.25%2C+27.74%29,5487,0,1
+1544248684802,5549,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-35,,true,,4157,472,46,46,null,5487,2,1
+1544248684303,6294,View map,200,OK,ThreadGroup 1-34,text,true,,61868,472,46,46,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.93%2C+27.44%2C+54.23%2C+27.74%29,6231,0,1
+1544248684302,6294,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-34,,true,,61868,472,46,46,null,6231,1,1
+1544248683965,7327,View map,200,OK,ThreadGroup 1-16,text,true,,141168,472,47,47,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.90%2C+27.44%2C+54.20%2C+27.74%29,7274,0,1
+1544248683965,7327,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-16,,true,,141168,472,47,47,null,7274,1,1
+1544248683803,7818,View map,200,OK,ThreadGroup 1-33,text,true,,312216,472,48,48,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.84%2C+27.44%2C+54.14%2C+27.74%29,7803,0,1
+1544248683801,7818,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-33,,true,,312216,472,48,48,null,7803,3,1
+1544248683841,7852,View map,200,OK,ThreadGroup 1-21,text,true,,233784,472,48,48,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.87%2C+27.44%2C+54.17%2C+27.74%29,7850,0,1
+1544248683841,7852,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-21,,true,,233784,472,48,48,null,7850,1,1
+1544248685292,7875,View map,200,OK,ThreadGroup 1-22,text,true,,3450,472,51,51,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.95%2C+27.47%2C+54.25%2C+27.77%29,7833,0,1
+1544248685292,7875,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-22,,true,,3450,472,51,51,null,7833,0,1
+1544248685176,8096,View map,200,OK,ThreadGroup 1-7,text,true,,55844,472,51,51,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.93%2C+27.47%2C+54.23%2C+27.77%29,8054,0,1
+1544248685176,8096,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-7,,true,,55844,472,51,51,null,8054,0,1
+1544248685135,8252,View map,200,OK,ThreadGroup 1-11,text,true,,125990,472,52,52,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.90%2C+27.47%2C+54.20%2C+27.77%29,8209,0,0
+1544248685134,8252,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-11,,true,,125990,472,52,52,null,8209,1,0
+1544248684915,8829,View map,200,OK,ThreadGroup 1-18,text,true,,272328,472,52,52,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.84%2C+27.47%2C+54.14%2C+27.77%29,8796,0,0
+1544248684914,8829,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-18,,true,,272328,472,52,52,null,8796,1,0
+1544248685018,9085,View map,200,OK,ThreadGroup 1-3,text,true,,204477,472,53,53,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.87%2C+27.47%2C+54.17%2C+27.77%29,9083,0,1
+1544248685018,9085,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-3,,true,,204477,472,53,53,null,9083,0,1
+1544248686158,9270,View map,200,OK,ThreadGroup 1-24,text,true,,108243,472,56,56,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.90%2C+27.50%2C+54.20%2C+27.80%29,9228,0,1
+1544248686158,9270,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-24,,true,,108243,472,56,56,null,9228,1,1
+1544248686236,9306,View map,200,OK,ThreadGroup 1-20,text,true,,49457,472,56,56,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.93%2C+27.50%2C+54.23%2C+27.80%29,9255,0,0
+1544248686236,9306,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-20,,true,,49457,472,56,56,null,9255,0,0
+1544248686278,9386,View map,200,OK,ThreadGroup 1-9,text,true,,3094,472,56,56,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.95%2C+27.50%2C+54.25%2C+27.80%29,9380,0,1
+1544248686277,9386,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-9,,true,,3094,472,56,56,null,9380,1,1
+1544248685805,9875,View map,200,OK,ThreadGroup 1-37,text,true,,173656,472,56,56,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.87%2C+27.50%2C+54.17%2C+27.80%29,9861,0,0
+1544248685804,9875,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-37,,true,,173656,472,56,56,null,9861,1,0
+1544248685304,10451,View map,200,OK,ThreadGroup 1-36,text,true,,229866,472,56,56,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.84%2C+27.50%2C+54.14%2C+27.80%29,10440,0,0
+1544248685303,10451,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-36,,true,,229866,472,56,56,null,10440,1,0
+1544248687222,9648,View map,200,OK,ThreadGroup 1-14,text,true,,2390,472,59,59,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.95%2C+27.53%2C+54.25%2C+27.83%29,9586,0,1
+1544248687221,9648,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-14,,true,,2390,472,59,59,null,9586,1,1
+1544248686807,10337,View map,200,OK,ThreadGroup 1-39,text,true,,36378,472,59,59,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.93%2C+27.53%2C+54.23%2C+27.83%29,10294,0,1
+1544248686806,10337,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-39,,true,,36378,472,59,59,null,10294,1,1
+1544248686306,10912,View map,200,OK,ThreadGroup 1-38,text,true,,85966,472,59,59,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.90%2C+27.53%2C+54.20%2C+27.83%29,10908,0,1
+1544248686305,10912,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-38,,true,,85966,472,59,59,null,10908,1,1
+1544248686299,10993,View map,200,OK,ThreadGroup 1-2,text,true,,134055,472,59,59,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.87%2C+27.53%2C+54.17%2C+27.83%29,10992,0,1
+1544248686298,10993,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-2,,true,,134055,472,59,59,null,10992,2,1
+1544248686281,11033,View map,200,OK,ThreadGroup 1-23,text,true,,179272,472,59,59,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.84%2C+27.53%2C+54.14%2C+27.83%29,11013,0,0
+1544248686281,11033,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-23,,true,,179272,472,59,59,null,11013,0,0
+1544248687307,11034,View map,200,OK,ThreadGroup 1-40,text,true,,2038,472,62,62,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.95%2C+27.56%2C+54.25%2C+27.86%29,10971,0,1
+1544248687307,11034,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-40,,true,,2038,472,62,62,null,10971,0,1
+1544248687242,11203,View map,200,OK,ThreadGroup 1-13,text,true,,28594,472,62,62,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.93%2C+27.56%2C+54.23%2C+27.86%29,11162,0,1
+1544248687242,11203,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-13,,true,,28594,472,62,62,null,11162,1,1
+1544248687236,11290,View map,200,OK,ThreadGroup 1-19,text,true,,143537,472,62,62,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.84%2C+27.56%2C+54.14%2C+27.86%29,11288,0,1
+1544248687236,11290,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-19,,true,,143537,472,62,62,null,11288,0,1
+1544248687240,11289,View map,200,OK,ThreadGroup 1-25,text,true,,66821,472,62,62,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.90%2C+27.56%2C+54.20%2C+27.86%29,11287,0,1
+1544248687240,11289,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-25,,true,,66821,472,62,62,null,11287,0,1
+1544248687238,11313,View map,200,OK,ThreadGroup 1-26,text,true,,106793,472,62,62,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.87%2C+27.56%2C+54.17%2C+27.86%29,11292,0,0
+1544248687237,11313,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-26,,true,,106793,472,62,62,null,11292,1,0
+1544248688055,11432,View map,200,OK,ThreadGroup 1-4,text,true,,1328,472,64,64,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.95%2C+27.59%2C+54.25%2C+27.89%29,11410,0,1
+1544248688054,11432,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-4,,true,,1328,472,64,64,null,11410,1,1
+1544248688053,11486,View map,200,OK,ThreadGroup 1-27,text,true,,20090,472,64,64,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.93%2C+27.59%2C+54.23%2C+27.89%29,11465,0,0
+1544248688052,11486,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-27,,true,,20090,472,64,64,null,11465,1,0
+1544248687808,11784,View map,200,OK,ThreadGroup 1-41,text,true,,101154,472,64,64,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.84%2C+27.59%2C+54.14%2C+27.89%29,11762,0,1
+1544248687808,11784,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-41,,true,,101154,472,64,64,null,11762,0,1
+1544248688050,11548,View map,200,OK,ThreadGroup 1-29,text,true,,47377,472,64,64,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.90%2C+27.59%2C+54.20%2C+27.89%29,11547,0,1
+1544248688049,11548,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-29,,true,,47377,472,64,64,null,11547,1,1
+1544248688048,11565,View map,200,OK,ThreadGroup 1-1,text,true,,76072,472,64,64,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.87%2C+27.59%2C+54.17%2C+27.89%29,11553,0,1
+1544248688047,11565,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-1,,true,,76072,472,64,64,null,11553,1,1
+1544248688064,12375,View map,200,OK,ThreadGroup 1-28,text,true,,66067,472,66,66,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.84%2C+27.62%2C+54.14%2C+27.92%29,12374,0,2
+1544248688064,12375,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-28,,true,,66067,472,66,66,null,12374,0,2
+1544248688689,11750,View map,200,OK,ThreadGroup 1-15,text,true,,13719,472,66,66,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.93%2C+27.62%2C+54.23%2C+27.92%29,11750,0,1
+1544248688689,11750,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-15,,true,,13719,472,66,66,null,11750,1,1
+1544248688690,11751,View map,200,OK,ThreadGroup 1-10,text,true,,1328,472,66,66,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.95%2C+27.62%2C+54.25%2C+27.92%29,11750,0,1
+1544248688690,11751,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-10,,true,,1328,472,66,66,null,11750,1,1
+1544248688310,12134,View map,200,OK,ThreadGroup 1-42,text,true,,53033,472,66,66,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.87%2C+27.62%2C+54.17%2C+27.92%29,12133,0,1
+1544248688308,12134,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-42,,true,,53033,472,66,66,null,12133,2,1
+1544248688689,11758,View map,200,OK,ThreadGroup 1-6,text,true,,32509,472,66,66,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.90%2C+27.62%2C+54.20%2C+27.92%29,11757,0,1
+1544248688688,11758,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-6,,true,,32509,472,66,66,null,11757,1,1
+1544248688691,12361,View map,200,OK,ThreadGroup 1-30,text,true,,27455,472,67,67,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.84%2C+27.65%2C+54.14%2C+27.95%29,12360,0,1
+1544248688691,12361,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-30,,true,,27455,472,67,67,null,12360,1,1
+1544248689083,11973,View map,200,OK,ThreadGroup 1-31,text,true,,6646,472,67,67,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.93%2C+27.65%2C+54.23%2C+27.95%29,11970,0,1
+1544248689082,11973,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-31,,true,,6646,472,67,67,null,11970,1,1
+1544248689085,11976,View map,200,OK,ThreadGroup 1-32,text,true,,628,472,67,67,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.95%2C+27.65%2C+54.25%2C+27.95%29,11973,0,1
+1544248689085,11976,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-32,,true,,628,472,67,67,null,11973,1,1
+1544248688692,12373,View map,200,OK,ThreadGroup 1-5,text,true,,23956,472,67,67,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.87%2C+27.65%2C+54.17%2C+27.95%29,12370,0,1
+1544248688692,12373,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-5,,true,,23956,472,67,67,null,12370,1,1
+1544248688810,12257,View map,200,OK,ThreadGroup 1-43,text,true,,14783,472,67,67,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.90%2C+27.65%2C+54.20%2C+27.95%29,12257,0,0
+1544248688809,12257,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-43,,true,,14783,472,67,67,null,12257,2,0
+1544248689087,12407,View map,200,OK,ThreadGroup 1-12,text,true,,275,472,68,68,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.84%2C+27.68%2C+54.14%2C+27.98%29,12406,0,1
+1544248689086,12407,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-12,,true,,275,472,68,68,null,12406,2,1
+1544248689089,12411,View map,200,OK,ThreadGroup 1-17,text,true,,275,472,68,68,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.87%2C+27.68%2C+54.17%2C+27.98%29,12410,0,0
+1544248689088,12411,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-17,,true,,275,472,68,68,null,12410,1,0
+1544248689089,12412,View map,200,OK,ThreadGroup 1-8,text,true,,275,472,68,68,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.90%2C+27.68%2C+54.20%2C+27.98%29,12411,0,1
+1544248689089,12412,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-8,,true,,275,472,68,68,null,12411,0,1
+1544248689310,12192,View map,200,OK,ThreadGroup 1-44,text,true,,275,472,68,68,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.93%2C+27.68%2C+54.23%2C+27.98%29,12191,0,1
+1544248689309,12192,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-44,,true,,275,472,68,68,null,12191,1,1
+1544248689810,11706,View map,200,OK,ThreadGroup 1-45,text,true,,275,472,68,68,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.95%2C+27.68%2C+54.25%2C+27.98%29,11695,0,1
+1544248689809,11706,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-45,,true,,275,472,68,68,null,11695,1,1
+1544248691293,11480,View map,200,OK,ThreadGroup 1-16,text,true,,4157,472,70,70,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.95%2C+27.44%2C+54.25%2C+27.74%29,11417,0,1
+1544248691293,11480,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-16,,true,,4157,472,70,70,null,11417,0,1
+1544248690812,12232,View map,200,OK,ThreadGroup 1-47,text,true,,61868,472,71,71,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.93%2C+27.44%2C+54.23%2C+27.74%29,12170,0,2
+1544248690811,12232,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-47,,true,,61868,472,71,71,null,12170,1,2
+1544248690598,13160,View map,200,OK,ThreadGroup 1-34,text,true,,141168,472,72,72,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.90%2C+27.44%2C+54.20%2C+27.74%29,13107,0,0
+1544248690597,13160,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-34,,true,,141168,472,72,72,null,13107,1,0
+1544248690310,13773,View map,200,OK,ThreadGroup 1-46,text,true,,312216,472,73,73,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.84%2C+27.44%2C+54.14%2C+27.74%29,13762,0,1
+1544248690309,13773,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-46,,true,,312216,472,73,73,null,13762,2,1
+1544248690353,13801,View map,200,OK,ThreadGroup 1-35,text,true,,233784,472,73,73,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.87%2C+27.44%2C+54.17%2C+27.74%29,13795,0,1
+1544248690353,13801,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-35,,true,,233784,472,73,73,null,13795,0,1
+1544248692311,13294,View map,200,OK,ThreadGroup 1-50,text,true,,3450,472,76,76,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.95%2C+27.47%2C+54.25%2C+27.77%29,13230,0,1
+1544248692311,13294,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-50,,true,,3450,472,76,76,null,13230,0,1
+1544248691811,14036,View map,200,OK,ThreadGroup 1-49,text,true,,55844,472,77,77,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.93%2C+27.47%2C+54.23%2C+27.77%29,13993,0,0
+1544248691810,14036,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-49,,true,,55844,472,77,77,null,13993,1,0
+1544248691694,14343,View map,200,OK,ThreadGroup 1-21,text,true,,125990,472,77,77,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.90%2C+27.47%2C+54.20%2C+27.77%29,14322,0,1
+1544248691694,14343,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-21,,true,,125990,472,77,77,null,14322,0,1
+1544248691311,14904,View map,200,OK,ThreadGroup 1-48,text,true,,272328,472,77,77,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.84%2C+27.47%2C+54.14%2C+27.77%29,14873,0,0
+1544248691310,14904,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-48,,true,,272328,472,77,77,null,14873,1,0
+1544248691622,14688,View map,200,OK,ThreadGroup 1-33,text,true,,204477,472,77,77,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.87%2C+27.47%2C+54.17%2C+27.77%29,14683,0,1
+1544248691622,14688,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-33,,true,,204477,472,77,77,null,14683,0,1
+1544248693387,13952,View map,200,OK,ThreadGroup 1-11,text,true,,3094,472,80,80,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.95%2C+27.50%2C+54.25%2C+27.80%29,13889,0,1
+1544248693387,13952,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-11,,true,,3094,472,80,80,null,13889,1,1
+1544248693313,14184,View map,200,OK,ThreadGroup 1-52,text,true,,49457,472,80,80,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.93%2C+27.50%2C+54.23%2C+27.80%29,14121,0,0
+1544248693312,14184,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-52,,true,,49457,472,80,80,null,14121,1,0
+1544248693272,14920,View map,200,OK,ThreadGroup 1-7,text,true,,108243,472,81,81,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.90%2C+27.50%2C+54.20%2C+27.80%29,14919,0,1
+1544248693272,14920,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-7,,true,,108243,472,81,81,null,14919,0,1
+1544248692813,15382,View map,200,OK,ThreadGroup 1-51,text,true,,229866,472,81,81,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.84%2C+27.50%2C+54.14%2C+27.80%29,15380,0,1
+1544248692812,15382,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-51,,true,,229866,472,81,81,null,15380,2,1
+1544248693168,15030,View map,200,OK,ThreadGroup 1-22,text,true,,173656,472,81,81,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.87%2C+27.50%2C+54.17%2C+27.80%29,15028,0,0
+1544248693167,15030,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-22,,true,,173656,472,81,81,null,15028,1,0
+1544248694314,15155,View map,200,OK,ThreadGroup 1-54,text,true,,36378,472,84,84,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.93%2C+27.53%2C+54.23%2C+27.83%29,15092,0,1
+1544248694313,15155,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-54,,true,,36378,472,84,84,null,15092,1,1
+1544248694814,14797,View map,200,OK,ThreadGroup 1-55,text,true,,2390,472,84,84,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.95%2C+27.53%2C+54.25%2C+27.83%29,14759,0,1
+1544248694814,14797,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-55,,true,,2390,472,84,84,null,14759,0,1
+1544248694103,15533,View map,200,OK,ThreadGroup 1-3,text,true,,85966,472,84,84,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.90%2C+27.53%2C+54.20%2C+27.83%29,15531,0,1
+1544248694103,15533,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-3,,true,,85966,472,84,84,null,15531,0,1
+1544248693745,15893,View map,200,OK,ThreadGroup 1-18,text,true,,179272,472,84,84,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.84%2C+27.53%2C+54.14%2C+27.83%29,15892,0,0
+1544248693744,15893,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-18,,true,,179272,472,84,84,null,15892,2,0
+1544248693814,15844,View map,200,OK,ThreadGroup 1-53,text,true,,134055,472,84,84,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.87%2C+27.53%2C+54.17%2C+27.83%29,15825,0,1
+1544248693813,15844,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-53,,true,,134055,472,84,84,null,15825,1,1
+1544248695680,15105,View map,200,OK,ThreadGroup 1-37,text,true,,2038,472,86,86,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.95%2C+27.56%2C+54.25%2C+27.86%29,15042,0,1
+1544248695680,15105,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-37,,true,,2038,472,86,86,null,15042,3,1
+1544248695665,15225,View map,200,OK,ThreadGroup 1-9,text,true,,28594,472,87,87,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.93%2C+27.56%2C+54.23%2C+27.86%29,15183,0,1
+1544248695664,15225,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-9,,true,,28594,472,87,87,null,15183,1,1
+1544248695316,15669,View map,200,OK,ThreadGroup 1-56,text,true,,143537,472,87,87,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.84%2C+27.56%2C+54.14%2C+27.86%29,15648,0,1
+1544248695315,15669,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-56,,true,,143537,472,87,87,null,15648,2,1
+1544248695543,15446,View map,200,OK,ThreadGroup 1-20,text,true,,66821,472,87,87,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.90%2C+27.56%2C+54.20%2C+27.86%29,15445,0,0
+1544248695542,15446,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-20,,true,,66821,472,87,87,null,15445,1,0
+1544248695429,15649,View map,200,OK,ThreadGroup 1-24,text,true,,106793,472,87,87,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.87%2C+27.56%2C+54.17%2C+27.86%29,15639,0,0
+1544248695429,15649,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-24,,true,,106793,472,87,87,null,15639,0,0
+1544248696870,15144,View map,200,OK,ThreadGroup 1-14,text,true,,1328,472,89,89,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.95%2C+27.59%2C+54.25%2C+27.89%29,15101,0,1
+1544248696870,15144,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-14,,true,,1328,472,89,89,null,15101,0,1
+1544248696818,15291,View map,200,OK,ThreadGroup 1-59,text,true,,20090,472,89,89,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.93%2C+27.59%2C+54.23%2C+27.89%29,15258,0,0
+1544248696817,15291,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-59,,true,,20090,472,89,89,null,15258,1,0
+1544248695755,16370,View map,200,OK,ThreadGroup 1-36,text,true,,101154,472,89,89,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.84%2C+27.59%2C+54.14%2C+27.89%29,16369,0,1
+1544248695755,16370,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-36,,true,,101154,472,89,89,null,16369,0,1
+1544248696317,15814,View map,200,OK,ThreadGroup 1-58,text,true,,47377,472,89,89,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.90%2C+27.59%2C+54.20%2C+27.89%29,15812,0,0
+1544248696316,15814,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-58,,true,,47377,472,89,89,null,15812,1,0
+1544248695816,16333,View map,200,OK,ThreadGroup 1-57,text,true,,76072,472,89,89,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.87%2C+27.59%2C+54.17%2C+27.89%29,16316,0,1
+1544248695815,16333,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-57,,true,,76072,472,89,89,null,16316,1,1
+1544248697318,15700,View map,200,OK,ThreadGroup 1-60,text,true,,1328,472,91,91,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.95%2C+27.62%2C+54.25%2C+27.92%29,15689,0,1
+1544248697318,15700,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-60,,true,,1328,472,91,91,null,15689,0,1
+1544248697145,15875,View map,200,OK,ThreadGroup 1-39,text,true,,66067,472,91,91,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.84%2C+27.62%2C+54.14%2C+27.92%29,15874,0,0
+1544248697144,15875,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-39,,true,,66067,472,91,91,null,15874,1,0
+1544248697218,15803,View map,200,OK,ThreadGroup 1-38,text,true,,53033,472,91,91,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.87%2C+27.62%2C+54.17%2C+27.92%29,15802,0,1
+1544248697218,15803,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-38,,true,,53033,472,91,91,null,15802,0,1
+1544248697315,15707,View map,200,OK,ThreadGroup 1-23,text,true,,13719,472,91,91,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.93%2C+27.62%2C+54.23%2C+27.92%29,15706,0,0
+1544248697314,15707,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-23,,true,,13719,472,91,91,null,15706,1,0
+1544248697293,15730,View map,200,OK,ThreadGroup 1-2,text,true,,32509,472,91,91,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.90%2C+27.62%2C+54.20%2C+27.92%29,15730,0,1
+1544248697293,15730,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-2,,true,,32509,472,91,91,null,15730,0,1
+1544248697834,15798,View map,200,OK,ThreadGroup 1-61,text,true,,27455,472,92,92,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.84%2C+27.65%2C+54.14%2C+27.95%29,15797,0,1
+1544248697828,15798,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-61,,true,,27455,472,92,92,null,15797,6,1
+1544248698319,15314,View map,200,OK,ThreadGroup 1-62,text,true,,23956,472,92,92,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.87%2C+27.65%2C+54.17%2C+27.95%29,15313,0,1
+1544248698318,15314,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-62,,true,,23956,472,92,92,null,15313,1,1
+1544248698341,15292,View map,200,OK,ThreadGroup 1-40,text,true,,14783,472,92,92,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.90%2C+27.65%2C+54.20%2C+27.95%29,15292,0,1
+1544248698341,15292,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-40,,true,,14783,472,92,92,null,15292,0,1
+1544248698446,15189,View map,200,OK,ThreadGroup 1-13,text,true,,6646,472,92,92,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.93%2C+27.65%2C+54.23%2C+27.95%29,15189,0,1
+1544248698446,15189,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-13,,true,,6646,472,92,92,null,15189,0,1
+1544248698526,15109,View map,200,OK,ThreadGroup 1-19,text,true,,628,472,92,92,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.95%2C+27.65%2C+54.25%2C+27.95%29,15109,0,1
+1544248698526,15109,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-19,,true,,628,472,92,92,null,15109,0,1
+1544248698529,15538,View map,200,OK,ThreadGroup 1-25,text,true,,275,472,93,93,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.84%2C+27.68%2C+54.14%2C+27.98%29,15538,0,1
+1544248698529,15538,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-25,,true,,275,472,93,93,null,15538,1,1
+1544248698551,15522,View map,200,OK,ThreadGroup 1-26,text,true,,275,472,93,93,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.87%2C+27.68%2C+54.17%2C+27.98%29,15521,0,1
+1544248698551,15522,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-26,,true,,275,472,93,93,null,15521,0,1
+1544248698820,15254,View map,200,OK,ThreadGroup 1-63,text,true,,275,472,93,93,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.90%2C+27.68%2C+54.20%2C+27.98%29,15253,0,0
+1544248698819,15254,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-63,,true,,275,472,93,93,null,15253,1,0
+1544248699320,14762,View map,200,OK,ThreadGroup 1-64,text,true,,275,472,93,93,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.93%2C+27.68%2C+54.23%2C+27.98%29,14754,0,1
+1544248699320,14762,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-64,,true,,275,472,93,93,null,14754,1,1
+1544248699487,14669,View map,200,OK,ThreadGroup 1-4,text,true,,275,472,93,93,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.95%2C+27.68%2C+54.25%2C+27.98%29,14668,0,1
+1544248699487,14669,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-4,,true,,275,472,93,93,null,14668,0,1
+1544248699821,15518,View map,200,OK,ThreadGroup 1-65,text,true,,4157,472,96,96,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.95%2C+27.44%2C+54.25%2C+27.74%29,15454,0,0
+1544248699820,15518,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-65,,true,,4157,472,96,96,null,15454,1,0
+1544248699614,15977,View map,200,OK,ThreadGroup 1-1,text,true,,61868,472,96,96,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.93%2C+27.44%2C+54.23%2C+27.74%29,15914,0,0
+1544248699613,15977,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-1,,true,,61868,472,96,96,null,15914,1,0
+1544248699598,16719,View map,200,OK,ThreadGroup 1-29,text,true,,141168,472,97,97,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.90%2C+27.44%2C+54.20%2C+27.74%29,16666,0,1
+1544248699598,16719,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-29,,true,,141168,472,97,97,null,16666,0,1
+1544248699540,17128,View map,200,OK,ThreadGroup 1-27,text,true,,312216,472,98,98,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.84%2C+27.44%2C+54.14%2C+27.74%29,17126,0,1
+1544248699539,17128,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-27,,true,,312216,472,98,98,null,17126,1,1
+1544248699593,17157,View map,200,OK,ThreadGroup 1-41,text,true,,233784,472,98,98,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.87%2C+27.44%2C+54.17%2C+27.74%29,17155,0,0
+1544248699592,17157,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-41,,true,,233784,472,98,98,null,17155,1,0
+1544248700444,17928,View map,200,OK,ThreadGroup 1-42,text,true,,3450,472,102,102,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.95%2C+27.47%2C+54.25%2C+27.77%29,17854,0,1
+1544248700444,17928,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-42,,true,,3450,472,102,102,null,17854,1,1
+1544248700442,18065,View map,200,OK,ThreadGroup 1-10,text,true,,55844,472,102,102,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.93%2C+27.47%2C+54.23%2C+27.77%29,18024,0,0
+1544248700442,18065,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-10,,true,,55844,472,102,102,null,18024,0,0
+1544248700439,18143,View map,200,OK,ThreadGroup 1-28,text,true,,204477,472,102,102,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.87%2C+27.47%2C+54.17%2C+27.77%29,18122,0,0
+1544248700439,18143,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-28,,true,,204477,472,102,102,null,18122,1,0
+1544248700440,18193,View map,200,OK,ThreadGroup 1-15,text,true,,125990,472,102,102,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.90%2C+27.47%2C+54.20%2C+27.77%29,18184,0,0
+1544248700440,18193,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-15,,true,,125990,472,102,102,null,18184,0,0
+1544248700321,18407,View map,200,OK,ThreadGroup 1-66,text,true,,272328,472,102,102,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.84%2C+27.47%2C+54.14%2C+27.77%29,18396,0,1
+1544248700320,18407,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-66,,true,,272328,472,102,102,null,18396,1,1
+1544248701063,18823,View map,200,OK,ThreadGroup 1-32,text,true,,3094,472,105,105,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.95%2C+27.50%2C+54.25%2C+27.80%29,18759,0,1
+1544248701062,18823,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-32,,true,,3094,472,105,105,null,18759,1,1
+1544248701058,19057,View map,200,OK,ThreadGroup 1-31,text,true,,49457,472,105,105,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.93%2C+27.50%2C+54.23%2C+27.80%29,18995,0,2
+1544248701057,19057,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-31,,true,,49457,472,105,105,null,18995,2,2
+1544248701054,19647,View map,200,OK,ThreadGroup 1-30,text,true,,108243,472,106,106,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.90%2C+27.50%2C+54.20%2C+27.80%29,19636,0,1
+1544248701053,19647,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-30,,true,,108243,472,106,106,null,19636,1,1
+1544248700821,19962,View map,200,OK,ThreadGroup 1-67,text,true,,173656,472,106,106,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.87%2C+27.50%2C+54.17%2C+27.80%29,19960,0,1
+1544248700821,19962,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-67,,true,,173656,472,106,106,null,19960,0,1
+1544248700448,20339,View map,200,OK,ThreadGroup 1-6,text,true,,229866,472,106,106,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.84%2C+27.50%2C+54.14%2C+27.80%29,20338,0,0
+1544248700447,20339,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-6,,true,,229866,472,106,106,null,20338,1,0
+1544248701500,20356,View map,200,OK,ThreadGroup 1-17,text,true,,2390,472,109,109,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.95%2C+27.53%2C+54.25%2C+27.83%29,20293,0,1
+1544248701500,20356,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-17,,true,,2390,472,109,109,null,20293,1,1
+1544248701495,20498,View map,200,OK,ThreadGroup 1-12,text,true,,36378,472,109,109,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.93%2C+27.53%2C+54.23%2C+27.83%29,20455,0,1
+1544248701495,20498,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-12,,true,,36378,472,109,109,null,20455,0,1
+1544248701067,21095,View map,200,OK,ThreadGroup 1-5,text,true,,179272,472,109,109,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.84%2C+27.53%2C+54.14%2C+27.83%29,21074,0,1
+1544248701066,21095,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-5,,true,,179272,472,109,109,null,21074,1,1
+1544248701322,20851,View map,200,OK,ThreadGroup 1-68,text,true,,85966,472,109,109,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.90%2C+27.53%2C+54.20%2C+27.83%29,20845,0,1
+1544248701321,20851,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-68,,true,,85966,472,109,109,null,20845,1,1
+1544248701068,21199,View map,200,OK,ThreadGroup 1-43,text,true,,134055,472,109,109,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.87%2C+27.53%2C+54.17%2C+27.83%29,21180,0,2
+1544248701068,21199,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-43,,true,,134055,472,109,109,null,21180,0,2
+1544248702322,20998,View map,200,OK,ThreadGroup 1-70,text,true,,2038,472,111,111,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.95%2C+27.56%2C+54.25%2C+27.86%29,20935,0,1
+1544248702322,20998,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-70,,true,,2038,472,111,111,null,20935,0,1
+1544248701822,21583,View map,200,OK,ThreadGroup 1-69,text,true,,28594,472,112,112,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.93%2C+27.56%2C+54.23%2C+27.86%29,21563,0,1
+1544248701822,21583,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-69,,true,,28594,472,112,112,null,21563,0,1
+1544248701516,21996,View map,200,OK,ThreadGroup 1-45,text,true,,66821,472,112,112,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.90%2C+27.56%2C+54.20%2C+27.86%29,21975,0,1
+1544248701516,21996,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-45,,true,,66821,472,112,112,null,21975,0,1
+1544248701501,22041,View map,200,OK,ThreadGroup 1-8,text,true,,143537,472,112,112,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.84%2C+27.56%2C+54.14%2C+27.86%29,22036,0,0
+1544248701501,22041,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-8,,true,,143537,472,112,112,null,22036,1,0
+1544248701502,22134,View map,200,OK,ThreadGroup 1-44,text,true,,106793,472,112,112,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.87%2C+27.56%2C+54.17%2C+27.86%29,22115,0,1
+1544248701502,22134,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-44,,true,,106793,472,112,112,null,22115,0,1
+1544248703759,20812,View map,200,OK,ThreadGroup 1-34,text,true,,1328,472,114,114,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.95%2C+27.59%2C+54.25%2C+27.89%29,20791,0,0
+1544248703758,20812,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-34,,true,,1328,472,114,114,null,20791,2,0
+1544248703044,21566,View map,200,OK,ThreadGroup 1-47,text,true,,47377,472,114,114,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.90%2C+27.59%2C+54.20%2C+27.89%29,21559,0,1
+1544248703044,21566,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-47,,true,,47377,472,114,114,null,21559,0,1
+1544248702773,21839,View map,200,OK,ThreadGroup 1-16,text,true,,101154,472,114,114,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.84%2C+27.59%2C+54.14%2C+27.89%29,21838,0,1
+1544248702773,21839,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-16,,true,,101154,472,114,114,null,21838,0,1
+1544248703323,21292,View map,200,OK,ThreadGroup 1-72,text,true,,20090,472,114,114,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.93%2C+27.59%2C+54.23%2C+27.89%29,21290,0,0
+1544248703322,21292,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-72,,true,,20090,472,114,114,null,21290,1,0
+1544248702822,21795,View map,200,OK,ThreadGroup 1-71,text,true,,76072,472,114,114,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.87%2C+27.59%2C+54.17%2C+27.89%29,21794,0,1
+1544248702822,21795,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-71,,true,,76072,472,114,114,null,21794,0,1
+1544248703823,21664,View map,200,OK,ThreadGroup 1-73,text,true,,66067,472,116,116,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.84%2C+27.62%2C+54.14%2C+27.92%29,21663,0,1
+1544248703823,21664,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-73,,true,,66067,472,116,116,null,21663,0,1
+1544248704154,21334,View map,200,OK,ThreadGroup 1-35,text,true,,32509,472,116,116,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.90%2C+27.62%2C+54.20%2C+27.92%29,21333,0,1
+1544248704154,21334,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-35,,true,,32509,472,116,116,null,21333,0,1
+1544248704327,21162,View map,200,OK,ThreadGroup 1-74,text,true,,13719,472,116,116,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.93%2C+27.62%2C+54.23%2C+27.92%29,21161,0,0
+1544248704325,21162,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-74,,true,,13719,472,116,116,null,21161,2,0
+1544248704825,20677,View map,200,OK,ThreadGroup 1-75,text,true,,1328,472,116,116,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.95%2C+27.62%2C+54.25%2C+27.92%29,20677,0,0
+1544248704824,20677,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-75,,true,,1328,472,116,116,null,20677,1,0
+1544248704084,21417,View map,200,OK,ThreadGroup 1-46,text,true,,53033,472,116,116,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.87%2C+27.62%2C+54.17%2C+27.92%29,21406,0,0
+1544248704084,21417,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-46,,true,,53033,472,116,116,null,21406,2,0
+1544248705325,20855,View map,200,OK,ThreadGroup 1-76,text,true,,27455,472,117,117,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.84%2C+27.65%2C+54.14%2C+27.95%29,20851,0,1
+1544248705324,20855,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-76,,true,,27455,472,117,117,null,20851,1,1
+1544248705826,20356,View map,200,OK,ThreadGroup 1-77,text,true,,14783,472,117,117,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.90%2C+27.65%2C+54.20%2C+27.95%29,20355,0,0
+1544248705825,20356,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-77,,true,,14783,472,117,117,null,20355,1,0
+1544248705848,20336,View map,200,OK,ThreadGroup 1-49,text,true,,6646,472,117,117,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.93%2C+27.65%2C+54.23%2C+27.95%29,20335,0,0
+1544248705847,20336,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-49,,true,,6646,472,117,117,null,20335,1,0
+1544248705606,20581,View map,200,OK,ThreadGroup 1-50,text,true,,23956,472,117,117,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.87%2C+27.65%2C+54.17%2C+27.95%29,20580,0,0
+1544248705605,20581,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-50,,true,,23956,472,117,117,null,20580,1,0
+1544248706037,20151,View map,200,OK,ThreadGroup 1-21,text,true,,628,472,117,117,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.95%2C+27.65%2C+54.25%2C+27.95%29,20150,0,1
+1544248706037,20151,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-21,,true,,628,472,117,117,null,20150,0,1
+1544248706216,20398,View map,200,OK,ThreadGroup 1-48,text,true,,275,472,118,118,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.84%2C+27.68%2C+54.14%2C+27.98%29,20398,0,0
+1544248706215,20398,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-48,,true,,275,472,118,118,null,20398,1,0
+1544248706310,20306,View map,200,OK,ThreadGroup 1-33,text,true,,275,472,118,118,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.87%2C+27.68%2C+54.17%2C+27.98%29,20306,0,1
+1544248706310,20306,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-33,,true,,275,472,118,118,null,20306,0,1
+1544248706326,20293,View map,200,OK,ThreadGroup 1-78,text,true,,275,472,118,118,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.90%2C+27.68%2C+54.20%2C+27.98%29,20292,0,1
+1544248706326,20293,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-78,,true,,275,472,118,118,null,20292,0,1
+1544248706826,19800,View map,200,OK,ThreadGroup 1-79,text,true,,275,472,118,118,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.93%2C+27.68%2C+54.23%2C+27.98%29,19795,0,1
+1544248706826,19800,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-79,,true,,275,472,118,118,null,19795,0,1
+1544248707326,19384,View map,200,OK,ThreadGroup 1-80,text,true,,275,472,118,118,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.95%2C+27.68%2C+54.25%2C+27.98%29,19375,0,1
+1544248707326,19384,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-80,,true,,275,472,118,118,null,19375,0,1
+1544248708196,19734,View map,200,OK,ThreadGroup 1-51,text,true,,4157,472,120,120,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.95%2C+27.44%2C+54.25%2C+27.74%29,19671,0,1
+1544248708196,19734,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-51,,true,,4157,472,120,120,null,19671,0,1
+1544248708193,19938,View map,200,OK,ThreadGroup 1-7,text,true,,61868,472,119,119,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.93%2C+27.44%2C+54.23%2C+27.74%29,19874,0,0
+1544248708192,19938,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-7,,true,,61868,472,119,119,null,19874,2,0
+1544248707826,21251,View map,200,OK,ThreadGroup 1-81,text,true,,141168,472,118,118,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.90%2C+27.44%2C+54.20%2C+27.74%29,21210,0,1
+1544248707826,21251,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-81,,true,,141168,472,118,118,null,21210,1,1
+1544248707498,21723,View map,200,OK,ThreadGroup 1-52,text,true,,233784,472,117,117,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.87%2C+27.44%2C+54.17%2C+27.74%29,21721,0,0
+1544248707497,21723,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-52,,true,,233784,472,117,117,null,21721,1,0
+1544248707340,21905,View map,200,OK,ThreadGroup 1-11,text,true,,312216,472,116,116,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.84%2C+27.44%2C+54.14%2C+27.74%29,21884,0,1
+1544248707340,21905,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-11,,true,,312216,472,116,116,null,21884,0,1
+1544248709469,21447,View map,200,OK,ThreadGroup 1-54,text,true,,3450,472,115,115,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.95%2C+27.47%2C+54.25%2C+27.77%29,21382,0,1
+1544248709469,21447,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-54,,true,,3450,472,115,115,null,21382,0,1
+1544248709327,21903,View map,200,OK,ThreadGroup 1-84,text,true,,55844,472,114,114,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.93%2C+27.47%2C+54.23%2C+27.77%29,21850,0,1
+1544248709327,21903,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-84,,true,,55844,472,114,114,null,21850,0,1
+1544248708827,22461,View map,200,OK,ThreadGroup 1-83,text,true,,125990,472,113,113,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.90%2C+27.47%2C+54.20%2C+27.77%29,22457,0,0
+1544248708826,22461,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-83,,true,,125990,472,113,113,null,22457,2,0
+1544248708198,23116,View map,200,OK,ThreadGroup 1-22,text,true,,272328,472,112,112,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.84%2C+27.47%2C+54.14%2C+27.77%29,23095,0,1
+1544248708198,23116,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-22,,true,,272328,472,112,112,null,23095,0,1
+1544248708326,23052,View map,200,OK,ThreadGroup 1-82,text,true,,204477,472,111,111,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.87%2C+27.47%2C+54.17%2C+27.77%29,23041,0,1
+1544248708326,23052,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-82,,true,,204477,472,111,111,null,23041,0,1
+1544248709828,22695,View map,200,OK,ThreadGroup 1-85,text,true,,3094,472,110,110,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.95%2C+27.50%2C+54.25%2C+27.80%29,22633,0,1
+1544248709827,22695,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-85,,true,,3094,472,110,110,null,22633,2,1
+1544248709658,23015,View map,200,OK,ThreadGroup 1-53,text,true,,49457,472,109,109,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.93%2C+27.50%2C+54.23%2C+27.80%29,22949,0,1
+1544248709658,23015,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-53,,true,,49457,472,109,109,null,22949,1,1
+1544248709639,23464,View map,200,OK,ThreadGroup 1-18,text,true,,108243,472,108,108,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.90%2C+27.50%2C+54.20%2C+27.80%29,23434,0,1
+1544248709639,23464,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-18,,true,,108243,472,108,108,null,23434,0,1
+1544248709612,23772,View map,200,OK,ThreadGroup 1-55,text,true,,229866,472,107,107,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.84%2C+27.50%2C+54.14%2C+27.80%29,23751,0,1
+1544248709611,23772,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-55,,true,,229866,472,107,107,null,23751,2,1
+1544248709637,23836,View map,200,OK,ThreadGroup 1-3,text,true,,173656,472,106,106,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.87%2C+27.50%2C+54.17%2C+27.80%29,23834,0,0
+1544248709636,23836,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-3,,true,,173656,472,106,106,null,23834,2,0
+1544248710891,23671,View map,200,OK,ThreadGroup 1-9,text,true,,36378,472,105,105,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.93%2C+27.53%2C+54.23%2C+27.83%29,23630,0,0
+1544248710890,23671,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-9,,true,,36378,472,105,105,null,23630,1,0
+1544248710329,24382,View map,200,OK,ThreadGroup 1-86,text,true,,179272,472,104,104,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.84%2C+27.53%2C+54.14%2C+27.83%29,24358,0,1
+1544248710328,24382,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-86,,true,,179272,472,104,104,null,24358,1,1
+1544248710829,23933,View map,200,OK,ThreadGroup 1-87,text,true,,85966,472,103,103,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.90%2C+27.53%2C+54.20%2C+27.83%29,23912,0,1
+1544248710829,23933,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-87,,true,,85966,472,103,103,null,23912,0,1
+1544248710986,23807,View map,200,OK,ThreadGroup 1-56,text,true,,2390,472,102,102,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.95%2C+27.53%2C+54.25%2C+27.83%29,23800,0,1
+1544248710986,23807,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-56,,true,,2390,472,102,102,null,23800,1,1
+1544248710789,24078,View map,200,OK,ThreadGroup 1-37,text,true,,134055,472,101,101,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.87%2C+27.53%2C+54.17%2C+27.83%29,24076,0,0
+1544248710788,24078,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-37,,true,,134055,472,101,101,null,24076,2,0
+1544248712015,23917,View map,200,OK,ThreadGroup 1-14,text,true,,2038,472,100,100,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.95%2C+27.56%2C+54.25%2C+27.86%29,23875,0,0
+1544248712014,23917,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-14,,true,,2038,472,100,100,null,23875,1,0
+1544248711830,24206,View map,200,OK,ThreadGroup 1-89,text,true,,28594,472,99,99,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.93%2C+27.56%2C+54.23%2C+27.86%29,24163,0,1
+1544248711830,24206,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-89,,true,,28594,472,99,99,null,24163,1,1
+1544248710989,25123,View map,200,OK,ThreadGroup 1-20,text,true,,143537,472,98,98,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.84%2C+27.56%2C+54.14%2C+27.86%29,25111,0,1
+1544248710989,25123,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-20,,true,,143537,472,98,98,null,25111,0,1
+1544248711330,24786,View map,200,OK,ThreadGroup 1-88,text,true,,66821,472,97,97,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.90%2C+27.56%2C+54.20%2C+27.86%29,24785,0,1
+1544248711329,24786,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-88,,true,,66821,472,97,97,null,24785,1,1
+1544248711078,25053,View map,200,OK,ThreadGroup 1-24,text,true,,106793,472,96,96,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.87%2C+27.56%2C+54.17%2C+27.86%29,25040,0,1
+1544248711078,25053,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-24,,true,,106793,472,96,96,null,25040,1,1
+1544248712150,24941,View map,200,OK,ThreadGroup 1-57,text,true,,20090,472,95,95,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.93%2C+27.59%2C+54.23%2C+27.89%29,24927,0,0
+1544248712149,24941,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-57,,true,,20090,472,95,95,null,24927,1,0
+1544248712331,24812,View map,200,OK,ThreadGroup 1-90,text,true,,1328,472,94,94,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.95%2C+27.59%2C+54.25%2C+27.89%29,24789,0,1
+1544248712330,24812,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-90,,true,,1328,472,94,94,null,24789,1,1
+1544248712109,25086,View map,200,OK,ThreadGroup 1-59,text,true,,101154,472,93,93,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.84%2C+27.59%2C+54.14%2C+27.89%29,25065,0,1
+1544248712109,25086,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-59,,true,,101154,472,93,93,null,25065,0,1
+1544248712131,25068,View map,200,OK,ThreadGroup 1-58,text,true,,47377,472,92,92,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.90%2C+27.59%2C+54.20%2C+27.89%29,25066,0,1
+1544248712131,25068,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-58,,true,,47377,472,92,92,null,25066,0,1
+1544248712126,25091,View map,200,OK,ThreadGroup 1-36,text,true,,76072,472,91,91,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.87%2C+27.59%2C+54.17%2C+27.89%29,25076,0,0
+1544248712126,25091,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-36,,true,,76072,472,91,91,null,25076,0,0
+1544248713022,25069,View map,200,OK,ThreadGroup 1-38,text,true,,13719,472,90,90,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.93%2C+27.62%2C+54.23%2C+27.92%29,25048,0,0
+1544248713021,25069,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-38,,true,,13719,472,90,90,null,25048,1,0
+1544248713023,25109,View map,200,OK,ThreadGroup 1-23,text,true,,1328,472,89,89,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.95%2C+27.62%2C+54.25%2C+27.92%29,25100,0,0
+1544248713023,25109,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-23,,true,,1328,472,89,89,null,25100,0,0
+1544248712832,25301,View map,200,OK,ThreadGroup 1-91,text,true,,66067,472,89,89,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.84%2C+27.62%2C+54.14%2C+27.92%29,25300,0,0
+1544248712831,25301,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-91,,true,,66067,472,89,89,null,25300,2,0
+1544248713020,25116,View map,200,OK,ThreadGroup 1-39,text,true,,32509,472,88,88,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.90%2C+27.62%2C+54.20%2C+27.92%29,25115,0,1
+1544248713020,25116,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-39,,true,,32509,472,88,88,null,25115,0,1
+1544248713019,25135,View map,200,OK,ThreadGroup 1-60,text,true,,53033,472,86,86,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.87%2C+27.62%2C+54.17%2C+27.92%29,25117,0,0
+1544248713018,25135,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-60,,true,,53033,472,86,86,null,25117,1,0
+1544248713023,25724,View map,200,OK,ThreadGroup 1-2,text,true,,27455,472,85,85,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.84%2C+27.65%2C+54.14%2C+27.95%29,25716,0,1
+1544248713023,25724,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-2,,true,,27455,472,85,85,null,25716,0,1
+1544248713332,25433,View map,200,OK,ThreadGroup 1-92,text,true,,23956,472,84,84,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.87%2C+27.65%2C+54.17%2C+27.95%29,25430,0,0
+1544248713331,25433,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-92,,true,,23956,472,84,84,null,25430,1,0
+1544248713632,25135,View map,200,OK,ThreadGroup 1-61,text,true,,14783,472,83,83,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.90%2C+27.65%2C+54.20%2C+27.95%29,25134,0,1
+1544248713632,25135,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-61,,true,,14783,472,83,83,null,25134,0,1
+1544248713633,25135,View map,200,OK,ThreadGroup 1-62,text,true,,6646,472,82,82,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.93%2C+27.65%2C+54.23%2C+27.95%29,25134,0,1
+1544248713633,25135,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-62,,true,,6646,472,82,82,null,25134,1,1
+1544248713634,25170,View map,200,OK,ThreadGroup 1-40,text,true,,628,472,81,81,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.95%2C+27.65%2C+54.25%2C+27.95%29,25144,0,0
+1544248713634,25170,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-40,,true,,628,472,81,81,null,25144,0,0
+1544248713635,25565,View map,200,OK,ThreadGroup 1-13,text,true,,275,472,80,80,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.84%2C+27.68%2C+54.14%2C+27.98%29,25564,0,1
+1544248713635,25565,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-13,,true,,275,472,80,80,null,25564,0,1
+1544248713636,25571,View map,200,OK,ThreadGroup 1-19,text,true,,275,472,79,79,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.87%2C+27.68%2C+54.17%2C+27.98%29,25571,0,0
+1544248713635,25571,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-19,,true,,275,472,79,79,null,25571,2,0
+1544248713832,25378,View map,200,OK,ThreadGroup 1-93,text,true,,275,472,78,78,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.90%2C+27.68%2C+54.20%2C+27.98%29,25376,0,0
+1544248713831,25378,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-93,,true,,275,472,78,78,null,25376,2,0
+1544248714068,25221,View map,200,OK,ThreadGroup 1-25,text,true,,275,472,77,77,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.93%2C+27.68%2C+54.23%2C+27.98%29,25220,0,0
+1544248714068,25221,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-25,,true,,275,472,77,77,null,25220,1,0
+1544248714073,25218,View map,200,OK,ThreadGroup 1-26,text,true,,275,472,76,76,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.95%2C+27.68%2C+54.25%2C+27.98%29,25218,0,1
+1544248714073,25218,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-26,,true,,275,472,76,76,null,25218,1,1
+1544248714834,25243,View map,200,OK,ThreadGroup 1-95,text,true,,4157,472,75,75,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.95%2C+27.44%2C+54.25%2C+27.74%29,25190,0,0
+1544248714833,25243,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-95,,true,,4157,472,75,75,null,25190,4,0
+1544248714333,26405,View map,200,OK,ThreadGroup 1-94,text,true,,61868,472,74,74,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.93%2C+27.44%2C+54.23%2C+27.74%29,26344,0,0
+1544248714332,26405,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-94,,true,,61868,472,74,74,null,26344,2,0
+1544248714156,27331,View map,200,OK,ThreadGroup 1-4,text,true,,141168,472,73,73,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.90%2C+27.44%2C+54.20%2C+27.74%29,27277,0,1
+1544248714156,27331,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-4,,true,,141168,472,73,73,null,27277,0,1
+1544248714075,27703,View map,200,OK,ThreadGroup 1-63,text,true,,312216,472,72,72,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.84%2C+27.44%2C+54.14%2C+27.74%29,27701,0,1
+1544248714074,27703,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-63,,true,,312216,472,72,72,null,27701,1,1
+1544248714083,27709,View map,200,OK,ThreadGroup 1-64,text,true,,233784,472,71,71,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.87%2C+27.44%2C+54.17%2C+27.74%29,27696,0,1
+1544248714083,27709,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-64,,true,,233784,472,71,71,null,27696,0,1
+1544248716317,26551,View map,200,OK,ThreadGroup 1-29,text,true,,3450,472,70,70,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.95%2C+27.47%2C+54.25%2C+27.77%29,26488,0,1
+1544248716317,26551,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-29,,true,,3450,472,70,70,null,26488,0,1
+1544248715834,27305,View map,200,OK,ThreadGroup 1-97,text,true,,55844,472,69,69,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.93%2C+27.47%2C+54.23%2C+27.77%29,27242,0,0
+1544248715833,27305,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-97,,true,,55844,472,69,69,null,27242,1,0
+1544248715591,28228,View map,200,OK,ThreadGroup 1-1,text,true,,125990,472,68,68,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.90%2C+27.47%2C+54.20%2C+27.77%29,28198,0,1
+1544248715591,28228,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-1,,true,,125990,472,68,68,null,28198,1,1
+1544248715334,28628,View map,200,OK,ThreadGroup 1-96,text,true,,272328,472,67,67,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.84%2C+27.47%2C+54.14%2C+27.77%29,28626,0,0
+1544248715333,28628,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-96,,true,,272328,472,67,67,null,28626,1,0
+1544248715340,28637,View map,200,OK,ThreadGroup 1-65,text,true,,204477,472,66,66,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.87%2C+27.47%2C+54.17%2C+27.77%29,28625,0,0
+1544248715339,28637,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-65,,true,,204477,472,66,66,null,28625,1,0
+1544248717334,27715,View map,200,OK,ThreadGroup 1-100,text,true,,3094,472,65,65,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.95%2C+27.50%2C+54.25%2C+27.80%29,27651,0,1
+1544248717334,27715,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-100,,true,,3094,472,65,65,null,27651,0,1
+1544248716835,28443,View map,200,OK,ThreadGroup 1-99,text,true,,49457,472,64,64,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.93%2C+27.50%2C+54.23%2C+27.80%29,28379,0,1
+1544248716834,28443,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-99,,true,,49457,472,64,64,null,28379,1,1
+1544248716751,29051,View map,200,OK,ThreadGroup 1-41,text,true,,108243,472,63,63,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.90%2C+27.50%2C+54.20%2C+27.80%29,29036,0,0
+1544248716751,29051,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-41,,true,,108243,472,63,63,null,29036,0,0
+1544248716334,29533,View map,200,OK,ThreadGroup 1-98,text,true,,229866,472,62,62,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.84%2C+27.50%2C+54.14%2C+27.80%29,29532,0,1
+1544248716334,29533,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-98,,true,,229866,472,62,62,null,29532,1,1
+1544248716668,29205,View map,200,OK,ThreadGroup 1-27,text,true,,173656,472,61,61,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.87%2C+27.50%2C+54.17%2C+27.80%29,29203,0,1
+1544248716668,29205,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-27,,true,,173656,472,61,61,null,29203,0,1
+1544248718583,28316,View map,200,OK,ThreadGroup 1-28,text,true,,2390,472,60,60,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.95%2C+27.53%2C+54.25%2C+27.83%29,28255,0,0
+1544248718583,28316,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-28,,true,,2390,472,60,60,null,28255,1,0
+1544248718508,28545,View map,200,OK,ThreadGroup 1-10,text,true,,36378,472,59,59,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.93%2C+27.53%2C+54.23%2C+27.83%29,28484,0,0
+1544248718507,28545,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-10,,true,,36378,472,59,59,null,28484,1,0
+1544248717834,29471,View map,200,OK,ThreadGroup 1-101,text,true,,179272,472,58,58,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.84%2C+27.53%2C+54.14%2C+27.83%29,29470,0,1
+1544248717834,29471,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-101,,true,,179272,472,58,58,null,29470,1,1
+1544248718373,28934,View map,200,OK,ThreadGroup 1-42,text,true,,85966,472,57,57,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.90%2C+27.53%2C+54.20%2C+27.83%29,28933,0,0
+1544248718373,28934,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-42,,true,,85966,472,57,57,null,28933,0,0
+1544248718335,29124,View map,200,OK,ThreadGroup 1-102,text,true,,134055,472,56,56,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.87%2C+27.53%2C+54.17%2C+27.83%29,29122,0,1
+1544248718334,29124,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-102,,true,,134055,472,56,56,null,29122,2,1
+1544248719837,28684,View map,200,OK,ThreadGroup 1-105,text,true,,2038,472,55,55,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.95%2C+27.56%2C+54.25%2C+27.86%29,28643,0,0
+1544248719836,28684,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-105,,true,,2038,472,55,55,null,28643,2,0
+1544248719339,29245,View map,200,OK,ThreadGroup 1-104,text,true,,28594,472,54,54,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.93%2C+27.56%2C+54.23%2C+27.86%29,29224,0,1
+1544248719337,29245,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-104,,true,,28594,472,54,54,null,29224,3,1
+1544248718633,29978,View map,200,OK,ThreadGroup 1-15,text,true,,143537,472,53,53,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.84%2C+27.56%2C+54.14%2C+27.86%29,29977,0,1
+1544248718633,29978,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-15,,true,,143537,472,53,53,null,29977,1,1
+1544248718729,29885,View map,200,OK,ThreadGroup 1-66,text,true,,106793,472,52,52,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.87%2C+27.56%2C+54.17%2C+27.86%29,29884,0,0
+1544248718728,29885,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-66,,true,,106793,472,52,52,null,29884,1,0
+1544248718836,29780,View map,200,OK,ThreadGroup 1-103,text,true,,66821,472,51,51,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.90%2C+27.56%2C+54.20%2C+27.86%29,29778,0,1
+1544248718835,29780,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-103,,true,,66821,472,51,51,null,29778,1,1
+1544248720783,28809,View map,200,OK,ThreadGroup 1-67,text,true,,1328,472,50,50,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.95%2C+27.59%2C+54.25%2C+27.89%29,28794,0,1
+1544248720783,28809,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-67,,true,,1328,472,50,50,null,28794,0,1
+1544248720701,28943,View map,200,OK,ThreadGroup 1-30,text,true,,20090,472,49,49,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.93%2C+27.59%2C+54.23%2C+27.89%29,28922,0,1
+1544248720701,28943,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-30,,true,,20090,472,49,49,null,28922,0,1
+1544248719886,29798,View map,200,OK,ThreadGroup 1-32,text,true,,101154,472,48,48,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.84%2C+27.59%2C+54.14%2C+27.89%29,29789,0,1
+1544248719886,29798,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-32,,true,,101154,472,48,48,null,29789,0,1
+1544248720337,29349,View map,200,OK,ThreadGroup 1-106,text,true,,47377,472,47,47,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.90%2C+27.59%2C+54.20%2C+27.89%29,29348,0,1
+1544248720336,29349,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-106,,true,,47377,472,47,47,null,29348,1,1
+1544248720116,29592,View map,200,OK,ThreadGroup 1-31,text,true,,76072,472,46,46,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.87%2C+27.59%2C+54.17%2C+27.89%29,29573,0,0
+1544248720116,29592,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-31,,true,,76072,472,46,46,null,29573,0,0
+1544248721857,28694,View map,200,OK,ThreadGroup 1-17,text,true,,1328,472,45,45,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.95%2C+27.62%2C+54.25%2C+27.92%29,28693,0,0
+1544248721857,28694,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-17,,true,,1328,472,45,45,null,28693,0,0
+1544248720787,29766,View map,200,OK,ThreadGroup 1-6,text,true,,66067,472,44,44,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.84%2C+27.62%2C+54.14%2C+27.92%29,29765,0,1
+1544248720787,29766,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-6,,true,,66067,472,44,44,null,29765,0,1
+1544248721339,29216,View map,200,OK,ThreadGroup 1-108,text,true,,32509,472,43,43,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.90%2C+27.62%2C+54.20%2C+27.92%29,29214,0,0
+1544248721338,29216,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-108,,true,,32509,472,43,43,null,29214,1,0
+1544248720838,29718,View map,200,OK,ThreadGroup 1-107,text,true,,53033,472,42,42,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.87%2C+27.62%2C+54.17%2C+27.92%29,29717,0,1
+1544248720837,29718,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-107,,true,,53033,472,42,42,null,29717,1,1
+1544248721839,28719,View map,200,OK,ThreadGroup 1-109,text,true,,13719,472,41,41,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.93%2C+27.62%2C+54.23%2C+27.92%29,28718,0,1
+1544248721839,28719,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-109,,true,,13719,472,41,41,null,28718,0,1
+1544248721993,29193,View map,200,OK,ThreadGroup 1-12,text,true,,27455,472,40,40,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.84%2C+27.65%2C+54.14%2C+27.95%29,29190,0,1
+1544248721993,29193,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-12,,true,,27455,472,40,40,null,29190,1,1
+1544248722162,29027,View map,200,OK,ThreadGroup 1-5,text,true,,23956,472,39,39,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.87%2C+27.65%2C+54.17%2C+27.95%29,29026,0,1
+1544248722162,29027,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-5,,true,,23956,472,39,39,null,29026,0,1
+1544248722174,29017,View map,200,OK,ThreadGroup 1-68,text,true,,14783,472,38,38,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.90%2C+27.65%2C+54.20%2C+27.95%29,29016,0,1
+1544248722173,29017,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-68,,true,,14783,472,38,38,null,29016,1,1
+1544248722267,28926,View map,200,OK,ThreadGroup 1-43,text,true,,6646,472,37,37,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.93%2C+27.65%2C+54.23%2C+27.95%29,28925,0,1
+1544248722267,28926,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-43,,true,,6646,472,37,37,null,28925,0,1
+1544248722340,28854,View map,200,OK,ThreadGroup 1-110,text,true,,628,472,36,36,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.95%2C+27.65%2C+54.25%2C+27.95%29,28853,0,1
+1544248722339,28854,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-110,,true,,628,472,36,36,null,28853,1,1
+1544248722842,28773,View map,200,OK,ThreadGroup 1-111,text,true,,275,472,35,35,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.84%2C+27.68%2C+54.14%2C+27.98%29,28772,0,2
+1544248722841,28773,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-111,,true,,275,472,35,35,null,28772,1,2
+1544248723321,28296,View map,200,OK,ThreadGroup 1-70,text,true,,275,472,34,34,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.87%2C+27.68%2C+54.17%2C+27.98%29,28295,0,0
+1544248723320,28296,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-70,,true,,275,472,34,34,null,28295,2,0
+1544248723341,28278,View map,200,OK,ThreadGroup 1-112,text,true,,275,472,33,33,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.90%2C+27.68%2C+54.20%2C+27.98%29,28278,0,1
+1544248723341,28278,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-112,,true,,275,472,33,33,null,28278,1,1
+1544248723405,28217,View map,200,OK,ThreadGroup 1-69,text,true,,275,472,32,32,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.93%2C+27.68%2C+54.23%2C+27.98%29,28216,0,1
+1544248723405,28217,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-69,,true,,275,472,32,32,null,28216,0,1
+1544248723512,28111,View map,200,OK,ThreadGroup 1-45,text,true,,275,472,31,31,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.95%2C+27.68%2C+54.25%2C+27.98%29,28111,0,1
+1544248723512,28111,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-45,,true,,275,472,31,31,null,28111,1,1
+1544248724572,28331,View map,200,OK,ThreadGroup 1-34,text,true,,4157,472,30,30,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.95%2C+27.44%2C+54.25%2C+27.74%29,28269,0,1
+1544248724572,28331,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-34,,true,,4157,472,30,30,null,28269,0,1
+1544248724343,28896,View map,200,OK,ThreadGroup 1-114,text,true,,61868,472,29,29,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.93%2C+27.44%2C+54.23%2C+27.74%29,28834,0,0
+1544248724342,28896,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-114,,true,,61868,472,29,29,null,28834,1,0
+1544248723843,30069,View map,200,OK,ThreadGroup 1-113,text,true,,141168,472,28,28,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.90%2C+27.44%2C+54.20%2C+27.74%29,30016,0,1
+1544248723842,30069,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-113,,true,,141168,472,28,28,null,30016,1,1
+1544248723544,30787,View map,200,OK,ThreadGroup 1-8,text,true,,312216,472,27,27,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.84%2C+27.44%2C+54.14%2C+27.74%29,30766,0,0
+1544248723543,30787,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-8,,true,,312216,472,27,27,null,30766,1,0
+1544248723637,30755,View map,200,OK,ThreadGroup 1-44,text,true,,233784,472,26,26,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.87%2C+27.44%2C+54.17%2C+27.74%29,30753,0,0
+1544248723636,30755,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-44,,true,,233784,472,26,26,null,30753,2,0
+1544248724618,31134,View map,200,OK,ThreadGroup 1-71,text,true,,55844,472,25,25,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.93%2C+27.47%2C+54.23%2C+27.77%29,31071,0,0
+1544248724618,31134,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-71,,true,,55844,472,25,25,null,31071,0,0
+1544248724844,31063,View map,200,OK,ThreadGroup 1-115,text,true,,3450,472,24,24,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.95%2C+27.47%2C+54.25%2C+27.77%29,31001,0,1
+1544248724844,31063,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-115,,true,,3450,472,24,24,null,31001,1,1
+1544248724615,31535,View map,200,OK,ThreadGroup 1-72,text,true,,125990,472,23,23,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.90%2C+27.47%2C+54.20%2C+27.77%29,31514,0,1
+1544248724615,31535,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-72,,true,,125990,472,23,23,null,31514,0,1
+1544248724610,31602,View map,200,OK,ThreadGroup 1-47,text,true,,272328,472,22,22,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.84%2C+27.47%2C+54.14%2C+27.77%29,31570,0,1
+1544248724610,31602,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-47,,true,,272328,472,22,22,null,31570,0,1
+1544248724612,31799,View map,200,OK,ThreadGroup 1-16,text,true,,204477,472,21,21,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.87%2C+27.47%2C+54.17%2C+27.77%29,31780,0,1
+1544248724612,31799,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-16,,true,,204477,472,21,21,null,31780,0,1
+1544248725503,31952,View map,200,OK,ThreadGroup 1-75,text,true,,3094,472,20,20,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.95%2C+27.50%2C+54.25%2C+27.80%29,31891,0,2
+1544248725503,31952,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-75,,true,,3094,472,20,20,null,31891,1,2
+1544248725489,32146,View map,200,OK,ThreadGroup 1-74,text,true,,49457,472,19,19,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.93%2C+27.50%2C+54.23%2C+27.80%29,32082,0,14
+1544248725489,32146,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-74,,true,,49457,472,19,19,null,32082,1,14
+1544248725488,32779,View map,200,OK,ThreadGroup 1-35,text,true,,108243,472,18,18,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.90%2C+27.50%2C+54.20%2C+27.80%29,32748,0,1
+1544248725488,32779,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-35,,true,,108243,472,18,18,null,32748,1,1
+1544248725345,32993,View map,200,OK,ThreadGroup 1-116,text,true,,229866,472,17,17,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.84%2C+27.50%2C+54.14%2C+27.80%29,32991,0,1
+1544248725344,32993,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-116,,true,,229866,472,17,17,null,32991,1,1
+1544248725487,32854,View map,200,OK,ThreadGroup 1-73,text,true,,173656,472,16,16,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.87%2C+27.50%2C+54.17%2C+27.80%29,32853,0,1
+1544248725487,32854,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-73,,true,,173656,472,16,16,null,32853,1,1
+1544248726184,33184,View map,200,OK,ThreadGroup 1-49,text,true,,2390,472,15,15,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.95%2C+27.53%2C+54.25%2C+27.83%29,33118,0,1
+1544248726184,33184,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-49,,true,,2390,472,15,15,null,33118,0,1
+1544248726183,33344,View map,200,OK,ThreadGroup 1-77,text,true,,36378,472,14,14,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.93%2C+27.53%2C+54.23%2C+27.83%29,33280,0,0
+1544248726182,33344,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-77,,true,,36378,472,14,14,null,33280,1,0
+1544248726180,33578,View map,200,OK,ThreadGroup 1-76,text,true,,85966,472,13,13,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.90%2C+27.53%2C+54.20%2C+27.83%29,33576,0,1
+1544248726180,33578,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-76,,true,,85966,472,13,13,null,33576,0,1
+1544248725503,34269,View map,200,OK,ThreadGroup 1-46,text,true,,179272,472,12,12,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.84%2C+27.53%2C+54.14%2C+27.83%29,34255,0,2
+1544248725503,34269,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-46,,true,,179272,472,12,12,null,34255,0,2
+1544248725845,34003,View map,200,OK,ThreadGroup 1-117,text,true,,134055,472,11,11,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.87%2C+27.53%2C+54.17%2C+27.83%29,33990,0,1
+1544248725845,34003,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-117,,true,,134055,472,11,11,null,33990,0,1
+1544248726617,34390,View map,200,OK,ThreadGroup 1-33,text,true,,2038,472,10,10,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.95%2C+27.56%2C+54.25%2C+27.86%29,34326,0,0
+1544248726616,34390,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-33,,true,,2038,472,10,10,null,34326,1,0
+1544248726615,34498,View map,200,OK,ThreadGroup 1-48,text,true,,28594,472,9,9,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.93%2C+27.56%2C+54.23%2C+27.86%29,34485,0,0
+1544248726614,34498,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-48,,true,,28594,472,9,9,null,34485,1,0
+1544248726187,34928,View map,200,OK,ThreadGroup 1-50,text,true,,143537,472,8,8,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.84%2C+27.56%2C+54.14%2C+27.86%29,34927,0,1
+1544248726187,34928,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-50,,true,,143537,472,8,8,null,34927,1,1
+1544248726346,34771,View map,200,OK,ThreadGroup 1-118,text,true,,66821,472,7,7,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.90%2C+27.56%2C+54.20%2C+27.86%29,34770,0,0
+1544248726345,34771,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-118,,true,,66821,472,7,7,null,34770,2,0
+1544248726189,34942,View map,200,OK,ThreadGroup 1-21,text,true,,106793,472,6,6,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.87%2C+27.56%2C+54.17%2C+27.86%29,34929,0,0
+1544248726188,34942,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-21,,true,,106793,472,6,6,null,34929,1,0
+1544248727345,34744,View map,200,OK,ThreadGroup 1-120,text,true,,1328,472,5,5,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.95%2C+27.59%2C+54.25%2C+27.89%29,34722,0,1
+1544248727345,34744,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-120,,true,,1328,472,5,5,null,34722,0,1
+1544248726845,35295,View map,200,OK,ThreadGroup 1-119,text,true,,20090,472,4,4,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.93%2C+27.59%2C+54.23%2C+27.89%29,35274,0,1
+1544248726845,35295,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-119,,true,,20090,472,4,4,null,35274,1,1
+1544248726619,35557,View map,200,OK,ThreadGroup 1-78,text,true,,101154,472,3,3,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.84%2C+27.59%2C+54.14%2C+27.89%29,35554,0,1
+1544248726619,35557,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-78,,true,,101154,472,3,3,null,35554,1,1
+1544248726710,35468,View map,200,OK,ThreadGroup 1-80,text,true,,47377,472,2,2,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.90%2C+27.59%2C+54.20%2C+27.89%29,35467,0,1
+1544248726710,35468,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-80,,true,,47377,472,2,2,null,35467,0,1
+1544248726626,35552,View map,200,OK,ThreadGroup 1-79,text,true,,76072,472,2,2,http://localhost:3000/events?date=2018-10-07&area=ST_MakeEnvelope%2853.87%2C+27.59%2C+54.17%2C+27.89%29,35552,0,1
+1544248726626,35552,View map,200,"Number of samples in transaction : 1, number of failing samples : 0",ThreadGroup 1-79,,true,,76072,472,2,2,null,35552,0,1

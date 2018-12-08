@@ -62,13 +62,34 @@
           <boolProp name="TransactionController.includeTimers">false</boolProp>
         </TransactionController>
         <hashTree>
+          <RandomVariableConfig guiclass="TestBeanGUI" testclass="RandomVariableConfig" testname="capacity" enabled="true">
+            <stringProp name="maximumValue">50</stringProp>
+            <stringProp name="minimumValue">3</stringProp>
+            <stringProp name="outputFormat"></stringProp>
+            <boolProp name="perThread">true</boolProp>
+            <stringProp name="randomSeed"></stringProp>
+            <stringProp name="variableName">CAPACITY</stringProp>
+          </RandomVariableConfig>
+          <hashTree/>
+          <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="event id" enabled="true">
+            <stringProp name="delimiter">,</stringProp>
+            <stringProp name="fileEncoding">UTF-8</stringProp>
+            <stringProp name="filename">C:/Users/Andrei Dashkevich/RubymineProjects/close-in-sever/db/dump/events.csv</stringProp>
+            <boolProp name="ignoreFirstLine">true</boolProp>
+            <boolProp name="quotedData">false</boolProp>
+            <boolProp name="recycle">true</boolProp>
+            <stringProp name="shareMode">shareMode.all</stringProp>
+            <boolProp name="stopThread">false</boolProp>
+            <stringProp name="variableNames">id</stringProp>
+          </CSVDataSet>
+          <hashTree/>
           <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Create event" enabled="true">
             <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
               <collectionProp name="Arguments.arguments">
                 <elementProp name="" elementType="HTTPArgument">
                   <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                  <stringProp name="Argument.value">{&quot;event&quot;:{&quot;title&quot;:&quot;Футбол на полтине&quot;, &quot;category&quot;:&quot;football&quot;, &quot;start_time&quot;:&quot;2018-10-07T11:57:51.400Z&quot;, &quot;end_time&quot;:&quot;2018-12-07T11:57:51.400Z&quot;, &quot;cost&quot;: &quot;6.5&quot;, &quot;capacity&quot;: &quot;15&quot;, &quot;location&quot;: &quot;POINT(114.2219923 22.3129115)&quot;}}</stringProp>
+                  <stringProp name="Argument.value">{&quot;event_id&quot;: &quot;${id}&quot;, &quot;booking&quot;: {&quot;count&quot;: &quot;1&quot;}}</stringProp>
                   <stringProp name="Argument.metadata">=</stringProp>
                 </elementProp>
               </collectionProp>
@@ -77,7 +98,7 @@
             <stringProp name="HTTPSampler.port"></stringProp>
             <stringProp name="HTTPSampler.protocol"></stringProp>
             <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-            <stringProp name="HTTPSampler.path">/events</stringProp>
+            <stringProp name="HTTPSampler.path">/bookings</stringProp>
             <stringProp name="HTTPSampler.method">POST</stringProp>
             <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
             <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
